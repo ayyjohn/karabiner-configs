@@ -320,8 +320,8 @@
                   [:##f20 :!Cf20]]}
          {:des "Left Shift to F"
           :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
-                  [:##a :left_control]
-                  [:##s :left_option]
+                  [:##a :left_option]
+                  [:##s :left_control]
                   [:##d :left_command]
                   ;;[:##f :left_shift]
 
@@ -608,7 +608,7 @@
           :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
                   [:##j :right_shift]
                   [:##k :right_command]
-                  ;; [:##l :left_control]
+                  ;; [:##l :right_control]
                   [:##semicolon :right_option]
 
                   ;; qwerty 30x grid
