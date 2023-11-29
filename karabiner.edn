@@ -129,7 +129,7 @@
                   [:##f19 :!Tf19]
                   [:##f20 :!Tf20]]}
          {:des "Left Control to S"
-          :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
                   [:##a :left_option]
                   ;;[:##s :left_control]
                   [:##d :left_command]
@@ -224,7 +224,7 @@
                   [:##f19 :!Of19]
                   [:##f20 :!Of20]]}
          {:des "Left Command to D"
-          :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
                   [:##a :left_option]
                   [:##s :left_control]
                   ;;[:##d :left_command]
@@ -319,7 +319,7 @@
                   [:##f19 :!Cf19]
                   [:##f20 :!Cf20]]}
          {:des "Left Shift to F"
-          :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
                   [:##a :left_option]
                   [:##s :left_control]
                   [:##d :left_command]
@@ -415,7 +415,7 @@
                   [:##f20 :!Sf20]]}
 
          {:des "Right Shift to J"
-          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :j-mode :!k-mode :!l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :j-mode :!k-mode :!l-mode :!semicolon-mode]
                   ;;[:##j :right_shift]
                   [:##k :right_command]
                   [:##l :right_control]
@@ -510,7 +510,7 @@
                   [:##f19 :!Rf19]
                   [:##f20 :!Rf20]]}
          {:des "Right Command to K"
-          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :k-mode :!l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :k-mode :!l-mode :!semicolon-mode]
                   [:##j :right_shift]
                   ;;[:##k :right_command]
                   [:##l :right_control]
@@ -605,7 +605,7 @@
                   [:##f19 :!Qf19]
                   [:##f20 :!Qf20]]}
          {:des "Right Control to L"
-          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode :!semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode :!semicolon-mode]
                   [:##j :right_shift]
                   [:##k :right_command]
                   ;; [:##l :right_control]
@@ -700,7 +700,7 @@
                   [:##f19 :!Ef19]
                   [:##f20 :!Ef20]]}
          {:des "Right Option to ;"
-          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :semicolon-mode :!q-mode :!m-mode :!e-mode :!w-mode :!nav_layer]
+          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :semicolon-mode]
                   [:##j :right_shift]
                   [:##k :right_command]
                   [:##l :right_control]
