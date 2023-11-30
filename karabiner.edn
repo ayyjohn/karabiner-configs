@@ -16,10 +16,10 @@
              :alone   180
              :delay   200
              :held    1000
-             :sim     100}}
+             :sim     200}}
 
 ;;   if it feels like i need more time to hit simlayers
-;;   :simlayer-threshold 500
+ :simlayer-threshold 500
  :simlayers {;; left-hand on ACGS
              :a-mode {:key :a} ;; left option
              :s-mode {:key :s} ;; left control
@@ -33,6 +33,8 @@
              }
  :main [{:des   "caps_lock to esc when pressed alone, to ctrl as modifier"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
+         ;; todo if i need to reimplement simlayers because configs bad
+        ;; {:des "customized simlayer A" :rules [:a {:set ["a-mode" 1]}]}
         {:des "Left Option to A"
         ;; when a-mode is active and not any of the other modes are active
         ;; map s to left control, d to left command, f to left shift
