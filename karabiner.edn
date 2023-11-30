@@ -34,6 +34,9 @@
  :main [{:des   "caps_lock to esc when pressed alone, to ctrl as modifier"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
         {:des "Left Option to A"
+        ;; when a-mode is active and not any of the other modes are active
+        ;; map s to left control, d to left command, f to left shift
+        ;; (thus allowing for multiple to be held at once)
          :rules [[:condi :a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
                   ;;[:##a :left_option]
                  [:##s :left_control]
@@ -41,6 +44,8 @@
                  [:##f :left_shift]
 
                   ;; qwerty 30x grid
+        ;; when a-mode is active and not any of the other modes are active
+        ;; map q to option(q), w to option(w), ...
                   ; top-row
                  [:##q :!Oq]
                  [:##w :!Ow]
