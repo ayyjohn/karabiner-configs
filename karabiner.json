@@ -91,7 +91,8 @@
             }
           },
           "to" : [ {
-            "key_code" : "hyphen"
+            "key_code" : "hyphen",
+            "modifiers" : [ "left_shift" ]
           } ],
           "conditions" : [ {
             "name" : "symbol-mode",
@@ -110,7 +111,8 @@
               "value" : 1
             }
           }, {
-            "key_code" : "hyphen"
+            "key_code" : "hyphen",
+            "modifiers" : [ "left_shift" ]
           } ],
           "from" : {
             "simultaneous" : [ {
@@ -139,8 +141,7 @@
             }
           },
           "to" : [ {
-            "key_code" : "hyphen",
-            "modifiers" : [ "left_shift" ]
+            "key_code" : "hyphen"
           } ],
           "conditions" : [ {
             "name" : "symbol-mode",
@@ -159,8 +160,7 @@
               "value" : 1
             }
           }, {
-            "key_code" : "hyphen",
-            "modifiers" : [ "left_shift" ]
+            "key_code" : "hyphen"
           } ],
           "from" : {
             "simultaneous" : [ {
@@ -587,7 +587,8 @@
             }
           },
           "to" : [ {
-            "key_code" : "hyphen"
+            "key_code" : "hyphen",
+            "modifiers" : [ "left_shift" ]
           } ],
           "conditions" : [ {
             "name" : "symbol-mode-2",
@@ -606,7 +607,8 @@
               "value" : 1
             }
           }, {
-            "key_code" : "hyphen"
+            "key_code" : "hyphen",
+            "modifiers" : [ "left_shift" ]
           } ],
           "from" : {
             "simultaneous" : [ {
@@ -635,8 +637,7 @@
             }
           },
           "to" : [ {
-            "key_code" : "hyphen",
-            "modifiers" : [ "left_shift" ]
+            "key_code" : "hyphen"
           } ],
           "conditions" : [ {
             "name" : "symbol-mode-2",
@@ -655,8 +656,7 @@
               "value" : 1
             }
           }, {
-            "key_code" : "hyphen",
-            "modifiers" : [ "left_shift" ]
+            "key_code" : "hyphen"
           } ],
           "from" : {
             "simultaneous" : [ {
