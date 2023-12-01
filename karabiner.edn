@@ -13,13 +13,48 @@
 ;;   :simlayer-threshold 800
 {:profiles {:Default
             {:default true
-             :alone   180
-             :delay   200
-             :held    1000
-             :sim     200}}
+             ;; how long a key should be pressed alone before
+             ;; it is considered "long pressed" and therefore cancelled.
+             ;; cannot be key-repeated sadly.
+             :alone   180 ;;  documentation: to_if_alone_timeout_milliseconds
 
-;;   if it feels like i need more time to hit simlayers
- :simlayer-threshold 500
+             ;; this one doesn't seem to be fore anything because
+             ;; this config doesn't have any delayed actions
+             ;; :delay   200 ;; documentation: to_delayed_action_delay_milliseconds
+
+             ;; to_if_held_down posts events when the from key is held down.
+             ;; If `to` events are specified, key_up event of `to` is sent
+             ;; before to_if_held_down events are posted.
+             ;; also don't think this one is doing anything
+             ;; :held    1000 ;; documentation: to_if_held_down_threshold_milliseconds
+
+             ;; simlayers are built on "simultaneous" behavior which is why
+             ;; if you hold them too long they just start to key repeat.
+             ;; they're used instead of normal layers because in normal layers
+             ;; there's no flexibility on timing. if a key is down and that key enables a layer,
+             ;; that layer will be on, so no rolling keys alowed.
+             ;; simultaneous does not modify events if any 
+             ;; `from` events are released before all `from` events are pressed.
+             ;; and simultaneous does not modify events if `from` events are interrupted by 
+             ;; another key_down event.
+             ;; they also don't care about order, so that could be why 
+             ;; holding two of them together was acting a bit weird?
+             ;; like if i type shift-l-g sometimes it comes out as LG.
+             ;; The key_up event is posted when you release the first `from`
+             ;; event of the combo.
+
+             ;; the window for how long you have between hitting two keys
+             ;; for them to be considered "simultaneous".
+             ;; (not how long they have to be held together).
+             ;; if this is set to a longer value, keys will be considered
+             ;; pressed simultaneously easier. 
+             :sim     1000}} ;; documentation: simultaneous_threshold_milliseconds
+
+;; if it feels like i need more time to roll letters, increase this value
+;; i'm not sure what the above :sim value does, it's changing something in the config
+;; but this one seems to control the threshold for all the individual values.
+;; its default is 800 i think
+ :simlayer-threshold 1000
  :simlayers {;; left-hand on ACGS
              :a-mode {:key :a} ;; left option
              :s-mode {:key :s} ;; left control
