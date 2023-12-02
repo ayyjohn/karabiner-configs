@@ -217,7 +217,10 @@
                  [:##right_arrow :!Oright_arrow]
                  [:##up_arrow :!Oup_arrow]
                  [:##down_arrow :!Odown_arrow]
-                 [:##spacebar :!Ospacebar]
+                ;; personal preference: since option-space is 
+                ;; my keybinding for entering an omnifocus item
+                ;; disable this
+                ;;  [:##spacebar :!Ospacebar]
 
                 ;; functions
                 ;;  [:##f1 :!Of1]
@@ -313,7 +316,10 @@
                  [:##right_arrow :!Tright_arrow]
                  [:##up_arrow :!Tup_arrow]
                  [:##down_arrow :!Tdown_arrow]
-                 [:##spacebar :!Tspacebar]
+                ;; personal preference: since control-o (dvorak) is 
+                ;; my keybinding for switching input modes
+                ;; disable this
+                ;;  [:##spacebar :!Tspacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Tf1]
@@ -409,7 +415,10 @@
                  [:##right_arrow :!Cright_arrow]
                  [:##up_arrow :!Cup_arrow]
                  [:##down_arrow :!Cdown_arrow]
-                 [:##spacebar :!Cspacebar]
+                ;; personal preference: since command-space is 
+                ;; my keybinding for spotlight/alfred
+                ;; disable this
+                ;;  [:##spacebar :!Cspacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Cf1]
@@ -505,7 +514,9 @@
                  [:##right_arrow :!Sright_arrow]
                  [:##up_arrow :!Sup_arrow]
                  [:##down_arrow :!Sdown_arrow]
-                 [:##spacebar :!Sspacebar]
+                ;; personal preference: shift space doesn't do anything
+                ;; and this reduces lag on space
+                ;;  [:##spacebar :!Sspacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Sf1]
@@ -602,7 +613,7 @@
                 ;;  [:##right_arrow :!Rright_arrow]
                 ;;  [:##up_arrow :!Rup_arrow]
                 ;;  [:##down_arrow :!Rdown_arrow]
-                 [:##spacebar :!Rspacebar]
+                ;;  [:##spacebar :!Rspacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Rf1]
@@ -698,7 +709,7 @@
                 ;;  [:##right_arrow :!Qright_arrow]
                 ;;  [:##up_arrow :!Qup_arrow]
                 ;;  [:##down_arrow :!Qdown_arrow]
-                 [:##spacebar :!Qspacebar]
+                ;;  [:##spacebar :!Qspacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Qf1]
@@ -794,7 +805,7 @@
                 ;;  [:##right_arrow :!Wright_arrow]
                 ;;  [:##up_arrow :!Wup_arrow]
                 ;;  [:##down_arrow :!Wdown_arrow]
-                 [:##spacebar :!Wspacebar]
+                ;;  [:##spacebar :!Wspacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Wf1]
@@ -890,7 +901,7 @@
                 ;;  [:##right_arrow :!Eright_arrow]
                 ;;  [:##up_arrow :!Eup_arrow]
                 ;;  [:##down_arrow :!Edown_arrow]
-                 [:##spacebar :!Espacebar]
+                ;;  [:##spacebar :!Espacebar]
 
                   ;;functions
                 ;;  [:##f1 :!Ef1]
