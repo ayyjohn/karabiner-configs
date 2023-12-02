@@ -48,7 +48,9 @@
              ;; (not how long they have to be held together).
              ;; if this is set to a longer value, keys will be considered
              ;; pressed simultaneously easier. 
-             :sim     1000}} ;; documentation: simultaneous_threshold_milliseconds
+             ;; :sim     800
+             ;; documentation: simultaneous_threshold_milliseconds
+             }}
 
 ;; if it feels like i need more time to roll letters, increase this value
 ;; i'm not sure what the above :sim value does, it's changing something in the config
@@ -59,7 +61,9 @@
 ;; to wait this long for the sim to fire so try and find a value sufficiently high that you don't accidentally trigger
 ;; the mods often by accident but also low enough that you don't mind the lag between hitting, say, cmd-a and actually
 ;; highlighting the thing.
- :simlayer-threshold 1000
+;; one thing it definitely controls is how long you have to hold command for something like 
+;; command-tab until command-tab is considered "held" so you can see the options
+ :simlayer-threshold 500
  :simlayers {;; left-hand on ACGS
              :a-mode {:key :a} ;; left option
              :s-mode {:key :s} ;; left control
