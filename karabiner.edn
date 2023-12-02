@@ -80,6 +80,8 @@
              :number-mode-2 {:key :left_option}} ;; left option => home row nums
  :main [{:des   "caps_lock to esc when pressed alone, to ctrl as modifier"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
+        {:des   "right_shift to caps lock"
+         :rules [[:##right_shift :##caps_lock]]}
         {:des "right option to number layer"
          :rules [[:condi :number-mode]
                  ;; home-row
