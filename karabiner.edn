@@ -80,68 +80,68 @@
              :number-mode-2 {:key :left_option}} ;; left option => home row nums
  :main [{:des   "caps_lock to esc when pressed alone, to ctrl as modifier"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
-        {:des   "right_shift to caps lock"
-         :rules [[:##right_shift :##caps_lock]]}
-        {:des "right option to number layer"
-         :rules [[:condi :number-mode]
-                 ;; home-row
-                 [:##a :1]
-                 [:##s :2]
-                 [:##d :3]
-                 [:##f :4]
-                 [:##g :5]
-                 [:##h :6]
-                 [:##j :7]
-                 [:##k :8]
-                 [:##l :9]
-                 [:##semicolon :0]]}
-        {:des "right option to number layer"
-         :rules [[:condi :number-mode-2]
-                 ;; home-row
-                 [:##a :1]
-                 [:##s :2]
-                 [:##d :3]
-                 [:##f :4]
-                 [:##g :5]
-                 [:##h :6]
-                 [:##j :7]
-                 [:##k :8]
-                 [:##l :9]
-                 [:##semicolon :0]]}
-        {:des "right command to symbol layer"
-         :rules [[:condi :symbol-mode]
-                 ;; home-row
-                 [:##a :!Sq]
-                 [:##s :!Shyphen]
-                 [:##d :hyphen]
-                 [:##f :!S9]
-                 [:##g :!Sw]
-                 [:##h :!Se]
-                 [:##j :!S0]
-                 [:##k :equal_sign]
-                 [:##l :!Sequal_sign]
-                 [:##semicolon :!Sz]
+        ;; {:des   "right_shift to caps lock"
+        ;;  :rules [[:##right_shift :##caps_lock]]}
+        ;; {:des "right option to number layer"
+        ;;  :rules [[:condi :number-mode]
+        ;;          ;; home-row
+        ;;          [:##a :1]
+        ;;          [:##s :2]
+        ;;          [:##d :3]
+        ;;          [:##f :4]
+        ;;          [:##g :5]
+        ;;          [:##h :6]
+        ;;          [:##j :7]
+        ;;          [:##k :8]
+        ;;          [:##l :9]
+        ;;          [:##semicolon :0]]}
+        ;; {:des "right option to number layer"
+        ;;  :rules [[:condi :number-mode-2]
+        ;;          ;; home-row
+        ;;          [:##a :1]
+        ;;          [:##s :2]
+        ;;          [:##d :3]
+        ;;          [:##f :4]
+        ;;          [:##g :5]
+        ;;          [:##h :6]
+        ;;          [:##j :7]
+        ;;          [:##k :8]
+        ;;          [:##l :9]
+        ;;          [:##semicolon :0]]}
+        ;; {:des "right command to symbol layer"
+        ;;  :rules [[:condi :symbol-mode]
+        ;;          ;; home-row
+        ;;          [:##a :!Sq]
+        ;;          [:##s :!Shyphen]
+        ;;          [:##d :hyphen]
+        ;;          [:##f :!S9]
+        ;;          [:##g :!Sw]
+        ;;          [:##h :!Se]
+        ;;          [:##j :!S0]
+        ;;          [:##k :equal_sign]
+        ;;          [:##l :!Sequal_sign]
+        ;;          [:##semicolon :!Sz]
 
-                 ;; tab, shift-tab
-                 [:##y :tab]
-                 [:##t :!Stab]]}
-        {:des "left command to symbol layer"
-         :rules [[:condi :symbol-mode-2]
-                 ;; home-row
-                 [:##a :!Sq]
-                 [:##s :!Shyphen]
-                 [:##d :hyphen]
-                 [:##f :!S9]
-                 [:##g :!Sw]
-                 [:##h :!Se]
-                 [:##j :!S0]
-                 [:##k :equal_sign]
-                 [:##l :!Sequal_sign]
-                 [:##semicolon :!Sz]
+        ;;          ;; tab, shift-tab
+        ;;          [:##y :tab]
+        ;;          [:##t :!Stab]]}
+        ;; {:des "left command to symbol layer"
+        ;;  :rules [[:condi :symbol-mode-2]
+        ;;          ;; home-row
+        ;;          [:##a :!Sq]
+        ;;          [:##s :!Shyphen]
+        ;;          [:##d :hyphen]
+        ;;          [:##f :!S9]
+        ;;          [:##g :!Sw]
+        ;;          [:##h :!Se]
+        ;;          [:##j :!S0]
+        ;;          [:##k :equal_sign]
+        ;;          [:##l :!Sequal_sign]
+        ;;          [:##semicolon :!Sz]
 
-                 ;; tab, shift-tab
-                 [:##y :tab]
-                 [:##t :!Stab]]}
+        ;;          ;; tab, shift-tab
+        ;;          [:##y :tab]
+        ;;          [:##t :!Stab]]}
         {:des "Left Option to A"
         ;; when a-mode is active and not any of the other modes are active
         ;; map s to left control, d to left command, f to left shift
