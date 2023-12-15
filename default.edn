@@ -422,6 +422,11 @@
                 ;; disable this
                 ;;  [:##spacebar :!Cspacebar]
 
+                ;; mouse
+                ;;  apple pointing devices aren't supported sadly
+                ;;  [:##button1 {:pkey :button1 :modi :left_command}]
+                ;;  [{:pkey :button1} {:pkey :button1 :modi :left_command}]
+
                   ;;functions
                 ;;  [:##f1 :!Cf1]
                 ;;  [:##f2 :!Cf2]
@@ -444,6 +449,7 @@
                 ;;  [:##f19 :!Cf19]
                 ;;  [:##f20 :!Cf20]
                  ]}
+
         {:des "Left Shift to F"
          :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
                  [:##a :left_option]
