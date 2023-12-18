@@ -260,7 +260,8 @@
                 ;;  [:##e :!Te]
                 ;;  [:##r :!Tr]
                 ;;  [:##t :!Tt]
-                 [:##y :!Ty]
+                ;; i specifically don't like control-f because i type "of" a lot
+                ;;  [:##y :!Ty]
                  [:##u :!Tu]
                  [:##i :!Ti]
                  [:##o :!To]
@@ -278,7 +279,7 @@
                  [:##l :!Tl]
                  [:##semicolon :!Tsemicolon]
 
-                  ;botton row
+                  ;bottom row
                 ;;  [:##z :!Tz]
                 ;;  [:##x :!Tx]
                 ;;  [:##c :!Tc]
