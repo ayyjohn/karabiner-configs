@@ -373,7 +373,8 @@
                   ;;[:##d :!Cd]
                 ;;  [:##f :!Cf]
                 ;;  [:##g :!Cg]
-                 [:##h :!Ch]
+                ;; ed is too common -> command D is not useful
+                ;;  [:##h :!Ch]
                  [:##j :!Cj]
                  [:##k :!Ck]
                  [:##l :!Cl]
