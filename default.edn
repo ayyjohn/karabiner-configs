@@ -606,7 +606,7 @@
                 ;;  [:##9 :!R9]
                 ;;  [:##0 :!R0]
 
-                  ;; other keys
+                ;; other keys
                 ;;  [:##hyphen :!Rhyphen]
                 ;;  [:##equal_sign :!Requal_sign]
                 ;;  [:##backslash :!Rbackslash]
