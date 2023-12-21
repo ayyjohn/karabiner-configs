@@ -73,7 +73,7 @@
              :j-mode {:key :j} ;; right shift
              :k-mode {:key :k} ;; right command
              :l-mode {:key :l} ;; right control
-             :semicolon-mode {:key :semicolon} ;; right option
+            ;;  :semicolon-mode {:key :semicolon} ;; right option
              :symbol-mode {:key :right_command} ;; right command => home row syms
              :symbol-mode-2 {:key :left_command} ;; left command => home row syms
              :number-mode {:key :right_option} ;; right option => home row nums
@@ -161,11 +161,11 @@
                 ;;  [:##e :!Oe]
                 ;;  [:##r :!Or]
                 ;;  [:##t :!Ot]
-                 [:##y :!Oy]
-                 [:##u :!Ou]
-                 [:##i :!Oi]
-                 [:##o :!Oo]
-                 [:##p :!Op]
+                ;;  [:##y :!Oy]
+                ;;  [:##u :!Ou]
+                ;;  [:##i :!Oi]
+                ;;  [:##o :!Oo]
+                ;;  [:##p :!Op]
 
                 ;; home-row
                 ;;  [:##a :!Oa]
@@ -173,11 +173,11 @@
                 ;;  [:##d :!Od]
                 ;;  [:##f :!Of]
                 ;;  [:##g :!Og]
-                 [:##h :!Oh]
-                 [:##j :!Oj]
-                 [:##k :!Ok]
-                 [:##l :!Ol]
-                 [:##semicolon :!Osemicolon]
+                ;;  [:##h :!Oh]
+                ;;  [:##j :!Oj]
+                ;;  [:##k :!Ok]
+                ;;  [:##l :!Ol]
+                ;;  [:##semicolon :!Osemicolon]
 
                 ;; botton row
                 ;;  [:##z :!Oz]
@@ -185,11 +185,11 @@
                 ;;  [:##c :!Oc]
                 ;;  [:##v :!Ov]
                 ;;  [:##b :!Ob]
-                 [:##n :!On]
-                 [:##m :!Om]
-                 [:##comma :!Ocomma]
-                 [:##period :!Operiod]
-                 [:##slash :!Oslash]
+                ;;  [:##n :!On]
+                ;;  [:##m :!Om]
+                ;;  [:##comma :!Ocomma]
+                ;;  [:##period :!Operiod]
+                ;;  [:##slash :!Oslash]
 
                 ;; number row
                 ;;  [:##1 :!O1]
@@ -197,23 +197,24 @@
                 ;;  [:##3 :!O3]
                 ;;  [:##4 :!O4]
                 ;;  [:##5 :!O5]
-                 [:##6 :!O6]
-                 [:##7 :!O7]
-                 [:##8 :!O8]
-                 [:##9 :!O9]
-                 [:##0 :!O0]
+                ;;  [:##6 :!O6]
+                ;;  [:##7 :!O7]
+                ;;  [:##8 :!O8]
+                ;;  [:##9 :!O9]
+                ;;  [:##0 :!O0]
 
                 ;; other keys
-                 [:##hyphen :!Ohyphen]
-                 [:##equal_sign :!Oequal_sign]
-                 [:##backslash :!Obackslash]
-                 [:##open_bracket :!Oopen_bracket]
-                 [:##close_bracket :!Oclose_bracket]
-                 [:##delete_or_backspace :!Odelete_or_backspace]
+                ;;  [:##hyphen :!Ohyphen]
+                ;;  [:##equal_sign :!Oequal_sign]
+                ;;  [:##backslash :!Obackslash]
+                ;;  [:##open_bracket :!Oopen_bracket]
+                ;;  [:##close_bracket :!Oclose_bracket]
+                ;;  [:##delete_or_backspace :!Odelete_or_backspace]
                 ;;  [:##grave_accent_and_tilde :!Ograve_accent_and_tilde]
-                 [:##quote :!Oquote]
-                 [:##return_or_enter :!Oreturn_or_enter]
+                ;;  [:##quote :!Oquote]
+                ;;  [:##return_or_enter :!Oreturn_or_enter]
                 ;;  [:##tab :!Otab]
+
                 ;;  [:##escape :!Oescape]
                  [:##left_arrow :!Oleft_arrow]
                  [:##right_arrow :!Oright_arrow]
@@ -843,18 +844,18 @@
                  ]}
         {:des "Right Option to ;"
          :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :semicolon-mode]
-                 [:##j :right_shift]
-                 [:##k :right_command]
-                 [:##l :right_control]
+                ;;  [:##j :right_shift]
+                ;;  [:##k :right_command]
+                ;;  [:##l :right_control]
                   ;;[:##semicolon :right_option]
 
                   ;; qwerty 30x grid
                   ; top-row
-                 [:##q :!Eq]
-                 [:##w :!Ew]
-                 [:##e :!Ee]
-                 [:##r :!Er]
-                 [:##t :!Et]
+                ;;  [:##q :!Eq]
+                ;;  [:##w :!Ew]
+                ;;  [:##e :!Ee]
+                ;;  [:##r :!Er]
+                ;;  [:##t :!Et]
                 ;;  [:##y :!Ey]
                 ;;  [:##u :!Eu]
                 ;;  [:##i :!Ei]
@@ -862,11 +863,11 @@
                 ;;  [:##p :!Ep]
 
                   ; home-row
-                 [:##a :!Ea]
-                 [:##s :!Es]
-                 [:##d :!Ed]
-                 [:##f :!Ef]
-                 [:##g :!Eg]
+                ;;  [:##a :!Ea]
+                ;;  [:##s :!Es]
+                ;;  [:##d :!Ed]
+                ;;  [:##f :!Ef]
+                ;;  [:##g :!Eg]
                 ;;  [:##h :!Eh]
                 ;;  [:##j :!Ej]
                 ;;  [:##k :!Ek]
@@ -874,11 +875,11 @@
                   ;; [:##semicolon :!Esemicolon]
 
                   ;botton row
-                 [:##z :!Ez]
-                 [:##x :!Ex]
-                 [:##c :!Ec]
-                 [:##v :!Ev]
-                 [:##b :!Eb]
+                ;;  [:##z :!Ez]
+                ;;  [:##x :!Ex]
+                ;;  [:##c :!Ec]
+                ;;  [:##v :!Ev]
+                ;;  [:##b :!Eb]
                 ;;  [:##n :!En]
                 ;;  [:##m :!Em]
                 ;;  [:##comma :!Ecomma]
@@ -886,11 +887,11 @@
                 ;;  [:##slash :!Eslash]
 
                   ;; number row
-                 [:##1 :!E1]
-                 [:##2 :!E2]
-                 [:##3 :!E3]
-                 [:##4 :!E4]
-                 [:##5 :!E5]
+                ;;  [:##1 :!E1]
+                ;;  [:##2 :!E2]
+                ;;  [:##3 :!E3]
+                ;;  [:##4 :!E4]
+                ;;  [:##5 :!E5]
                 ;;  [:##6 :!E6]
                 ;;  [:##7 :!E7]
                 ;;  [:##8 :!E8]
@@ -904,10 +905,10 @@
                 ;;  [:##open_bracket :!Eopen_bracket]
                 ;;  [:##close_bracket :!Eclose_bracket]
                 ;;  [:##delete_or_backspace :!Edelete_or_backspace]
-                 [:##grave_accent_and_tilde :!Egrave_accent_and_tilde]
+                ;;  [:##grave_accent_and_tilde :!Egrave_accent_and_tilde]
                 ;;  [:##quote :!Equote]
                 ;;  [:##return_or_enter :!Ereturn_or_enter]
-                 [:##tab :!Etab]
+                ;;  [:##tab :!Etab]
                 ;;  [:##escape :!Eescape]
                 ;;  [:##left_arrow :!Eleft_arrow]
                 ;;  [:##right_arrow :!Eright_arrow]
