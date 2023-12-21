@@ -364,7 +364,8 @@
                  [:##y :!Cy]
                  [:##u :!Cu]
                  [:##i :!Ci]
-                 [:##o :!Co]
+                ;;  er is common too god damn..., refreshes things too often
+                ;;  [:##o :!Co]
                  [:##p :!Cp]
 
                 ;; home-row
