@@ -282,9 +282,9 @@
                 ;;  bottom row
                 ;;  [:##b :!Tb]
                 ;; option b and option w
-                 [:##n :!On]
+                 [:##n :!Oleft_arrow]
                 ;;  [:##m :!Tm]
-                 [:##comma :!Ocomma]
+                 [:##comma :!Oright_arrow]
                 ;;  [:##period :!Tperiod]
                 ;;  [:##slash :!Tslash]
 
