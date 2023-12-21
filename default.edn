@@ -358,14 +358,14 @@
                 ;;  [:##e :!Ce]
                 ;;  [:##r :!Cr]
                 ;;  [:##t :!Ct]
-                ;; command f stays
+                ;; command f
                  [:##y :!Cy]
                 ;;  [:##u :!Cu]
-                ;; command c stays
+                ;; command c
                  [:##i :!Ci]
                 ;;  er is common too god damn..., refreshes things too often
                 ;;  [:##o :!Co]
-                ;; command l stays
+                ;; command l
                  [:##p :!Cp]
 
                 ;; home-row
