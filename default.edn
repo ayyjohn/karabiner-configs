@@ -146,7 +146,7 @@
         ;; when a-mode is active and not any of the other modes are active
         ;; map s to left control, d to left command, f to left shift
         ;; (thus allowing for multiple to be held at once)
-         :rules [[:condi :a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
+         :rules [[:condi :a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
                 ;;  [:##a :left_option]
                 ;;  [:##s :left_control]
                 ;;  [:##d :left_command]
@@ -249,7 +249,7 @@
                 ;;  [:##f20 :!Of20]
                  ]}
         {:des "Left Control and Option to S"
-         :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
+         :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
         ;;  disable combos, if there's a command-control/command-shift, enable that specifically
                 ;;  [:##a :left_option]
                 ;;  [:##s :left_control]
@@ -345,11 +345,11 @@
                 ;;  [:##f20 :!Tf20]
                  ]}
         {:des "Left Command to D"
-         :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
-                 [:##a :left_option]
-                 [:##s :left_control]
+         :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
+                ;;  [:##a :left_option]
+                ;;  [:##s :left_control]
                 ;;   [:##d :left_command]
-                 [:##f :left_shift]
+                ;;  [:##f :left_shift]
 
                   ;; qwerty 30x grid
                 ;; top-row
@@ -452,10 +452,10 @@
                  ]}
 
         {:des "Left Shift to F"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
-                 [:##a :left_option]
-                 [:##s :left_control]
-                 [:##d :left_command]
+         :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode]
+                ;;  [:##a :left_option]
+                ;;  [:##s :left_control]
+                ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
 
                   ;; qwerty 30x grid
@@ -551,11 +551,11 @@
                  ]}
 
         {:des "Right Shift to J"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :j-mode :!k-mode :!l-mode :!semicolon-mode]
+         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :j-mode :!k-mode :!l-mode]
                 ;;  [:##j :right_shift]
-                 [:##k :right_command]
-                 [:##l :right_control]
-                 [:##semicolon :right_option]
+                ;;  [:##k :right_command]
+                ;;  [:##l :right_control]
+                ;;  [:##semicolon :right_option]
 
                   ;; qwerty 30x grid
                   ; top-row
@@ -647,11 +647,11 @@
                 ;;  [:##f20 :!Rf20]
                  ]}
         {:des "Right Command to K"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :k-mode :!l-mode :!semicolon-mode]
-                 [:##j :right_shift]
+         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :k-mode :!l-mode]
+                ;;  [:##j :right_shift]
                   ;;[:##k :right_command]
-                 [:##l :right_control]
-                 [:##semicolon :right_option]
+                ;;  [:##l :right_control]
+                ;;  [:##semicolon :right_option]
 
                   ;; qwerty 30x grid
                   ;; top-row
@@ -743,7 +743,7 @@
                 ;;  [:##f20 :!Qf20]
                  ]}
         {:des "Right Control to L"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode :!semicolon-mode]
+         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode]
                 ;;  [:##j :right_shift]
                 ;;  [:##k :right_command]
                   ;; [:##l :right_control]
