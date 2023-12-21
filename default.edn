@@ -348,46 +348,55 @@
          :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
                 ;;  [:##a :left_option]
                 ;;  [:##s :left_control]
-                ;;   [:##d :left_command]
+                ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
 
-                  ;; qwerty 30x grid
+                ;; qwerty 30x grid
                 ;; top-row
                 ;;  [:##q :!Cq]
                 ;;  [:##w :!Cw]
                 ;;  [:##e :!Ce]
                 ;;  [:##r :!Cr]
                 ;;  [:##t :!Ct]
+                ;; command f stays
                  [:##y :!Cy]
-                 [:##u :!Cu]
+                ;;  [:##u :!Cu]
+                ;; command c stays
                  [:##i :!Ci]
                 ;;  er is common too god damn..., refreshes things too often
                 ;;  [:##o :!Co]
+                ;; command l stays
                  [:##p :!Cp]
 
                 ;; home-row
                 ;;  [:##a :!Ca]
                 ;;  [:##s :!Cs]
-                  ;;[:##d :!Cd]
+                ;;  [:##d :!Cd]
                 ;;  [:##f :!Cf]
                 ;;  [:##g :!Cg]
                 ;; ed is too common -> command D is not useful
                 ;;  [:##h :!Ch]
-                 [:##j :!Cj]
+                ;;  [:##j :!Cj]
+                ;; command t
                  [:##k :!Ck]
+                ;;  command n
                  [:##l :!Cl]
+                ;;  command s
                  [:##semicolon :!Csemicolon]
 
-                  ;botton row
+                ;; botton row
                 ;;  [:##z :!Cz]
                 ;;  [:##x :!Cx]
                 ;;  [:##c :!Cc]
                 ;;  [:##v :!Cv]
                 ;;  [:##b :!Cb]
+                ;; command b stays
                  [:##n :!Cn]
-                 [:##m :!Cm]
-                 [:##comma :!Ccomma]
+                ;;  [:##m :!Cm]
+                ;;  [:##comma :!Ccomma]
+                ;; command v
                  [:##period :!Cperiod]
+                ;; command z
                  [:##slash :!Cslash]
 
                   ;; number row
@@ -402,22 +411,29 @@
                  [:##9 :!C9]
                  [:##0 :!C0]
 
-                  ;; other keys
+                 ;; other keys
+                 ;; command [
                  [:##hyphen :!Chyphen]
+                 ;; command ]
                  [:##equal_sign :!Cequal_sign]
+                 ;; command \
                  [:##backslash :!Cbackslash]
+                 ;; command /
                  [:##open_bracket :!Copen_bracket]
+                 ;; command +
                  [:##close_bracket :!Cclose_bracket]
+                 ;; command delete
                  [:##delete_or_backspace :!Cdelete_or_backspace]
                 ;;  [:##grave_accent_and_tilde :!Cgrave_accent_and_tilde]
-                 [:##quote :!Cquote]
+                ;;  [:##quote :!Cquote]
+                ;; command enter
                  [:##return_or_enter :!Creturn_or_enter]
                 ;;  [:##tab :!Ctab]
                 ;;  [:##escape :!Cescape]
-                 [:##left_arrow :!Cleft_arrow]
-                 [:##right_arrow :!Cright_arrow]
-                 [:##up_arrow :!Cup_arrow]
-                 [:##down_arrow :!Cdown_arrow]
+                ;;  [:##left_arrow :!Cleft_arrow]
+                ;;  [:##right_arrow :!Cright_arrow]
+                ;;  [:##up_arrow :!Cup_arrow]
+                ;;  [:##down_arrow :!Cdown_arrow]
                 ;; personal preference: since command-space is 
                 ;; my keybinding for spotlight/alfred
                 ;; disable this
