@@ -79,39 +79,6 @@
           } ],
           "type" : "basic"
         }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "up_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "j"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        }, {
           "from" : {
             "key_code" : "k",
             "modifiers" : {
@@ -156,39 +123,6 @@
             "type" : "variable_if"
           } ],
           "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "k"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
         }, {
           "from" : {
             "key_code" : "l",
@@ -235,39 +169,6 @@
           } ],
           "type" : "basic"
         }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "l"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        }, {
           "from" : {
             "key_code" : "semicolon",
             "modifiers" : {
@@ -312,39 +213,6 @@
             "type" : "variable_if"
           } ],
           "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "down_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "semicolon"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
         } ]
       }, {
         "description" : "Left Control and Option to S",
@@ -425,7 +293,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "j",
@@ -503,7 +376,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "k",
@@ -581,7 +459,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "l",
@@ -659,7 +542,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -737,7 +625,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "6",
@@ -815,7 +708,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "7",
@@ -893,7 +791,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "8",
@@ -971,7 +874,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "9",
@@ -1049,7 +957,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "0",
@@ -1127,7 +1040,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "delete_or_backspace",
@@ -1205,7 +1123,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "left_arrow",
@@ -1283,7 +1206,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "right_arrow",
@@ -1361,7 +1289,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "up_arrow",
@@ -1439,7 +1372,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "down_arrow",
@@ -1517,7 +1455,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       }, {
         "description" : "Left Command to D",
@@ -1596,7 +1539,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "s",
@@ -1672,7 +1620,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "f",
@@ -1748,7 +1701,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "y",
@@ -1826,7 +1784,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "u",
@@ -1904,7 +1867,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "i",
@@ -1982,7 +1950,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "p",
@@ -2060,7 +2033,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "j",
@@ -2138,7 +2116,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "k",
@@ -2216,7 +2199,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "l",
@@ -2294,7 +2282,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -2372,7 +2365,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "n",
@@ -2450,7 +2448,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "m",
@@ -2528,7 +2531,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "comma",
@@ -2606,7 +2614,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "period",
@@ -2684,7 +2697,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "slash",
@@ -2762,7 +2780,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "6",
@@ -2840,7 +2863,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "7",
@@ -2918,7 +2946,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "8",
@@ -2996,7 +3029,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "9",
@@ -3074,7 +3112,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "0",
@@ -3152,7 +3195,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "hyphen",
@@ -3230,7 +3278,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "equal_sign",
@@ -3308,7 +3361,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "backslash",
@@ -3386,7 +3444,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "open_bracket",
@@ -3464,7 +3527,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "close_bracket",
@@ -3542,7 +3610,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "delete_or_backspace",
@@ -3620,7 +3693,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "quote",
@@ -3698,7 +3776,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "return_or_enter",
@@ -3776,7 +3859,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "left_arrow",
@@ -3854,7 +3942,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "right_arrow",
@@ -3932,7 +4025,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "up_arrow",
@@ -4010,7 +4108,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "down_arrow",
@@ -4088,7 +4191,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       }, {
         "description" : "Left Shift to F",
@@ -4167,7 +4275,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "s",
@@ -4243,7 +4356,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "d",
@@ -4319,7 +4437,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "y",
@@ -4397,7 +4520,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "u",
@@ -4475,7 +4603,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "i",
@@ -4553,7 +4686,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "o",
@@ -4631,7 +4769,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "p",
@@ -4709,7 +4852,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "h",
@@ -4787,7 +4935,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "j",
@@ -4865,7 +5018,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "k",
@@ -4943,7 +5101,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "l",
@@ -5021,7 +5184,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -5099,7 +5267,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "n",
@@ -5177,7 +5350,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "m",
@@ -5255,7 +5433,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "comma",
@@ -5333,7 +5516,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "period",
@@ -5411,7 +5599,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "slash",
@@ -5489,7 +5682,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "6",
@@ -5567,7 +5765,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "7",
@@ -5645,7 +5848,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "8",
@@ -5723,7 +5931,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "9",
@@ -5801,7 +6014,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "0",
@@ -5879,7 +6097,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "hyphen",
@@ -5957,7 +6180,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "equal_sign",
@@ -6035,7 +6263,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "backslash",
@@ -6113,7 +6346,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "open_bracket",
@@ -6191,7 +6429,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "close_bracket",
@@ -6269,7 +6512,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "delete_or_backspace",
@@ -6347,7 +6595,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "quote",
@@ -6425,7 +6678,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "return_or_enter",
@@ -6503,7 +6761,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "left_arrow",
@@ -6581,7 +6844,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "right_arrow",
@@ -6659,7 +6927,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "up_arrow",
@@ -6737,7 +7010,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "down_arrow",
@@ -6815,7 +7093,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       }, {
         "description" : "Right Shift to J",
@@ -6894,7 +7177,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "l",
@@ -6970,7 +7258,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -7046,7 +7339,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "q",
@@ -7124,7 +7422,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "w",
@@ -7202,7 +7505,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "e",
@@ -7280,7 +7588,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "r",
@@ -7358,7 +7671,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "t",
@@ -7436,7 +7754,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "a",
@@ -7514,7 +7837,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "s",
@@ -7592,7 +7920,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "d",
@@ -7670,7 +8003,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "f",
@@ -7748,7 +8086,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "g",
@@ -7826,7 +8169,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "z",
@@ -7904,7 +8252,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "x",
@@ -7982,7 +8335,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "c",
@@ -8060,7 +8418,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "v",
@@ -8138,7 +8501,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "1",
@@ -8216,7 +8584,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "2",
@@ -8294,7 +8667,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "3",
@@ -8372,7 +8750,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "4",
@@ -8450,7 +8833,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "5",
@@ -8528,7 +8916,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "grave_accent_and_tilde",
@@ -8606,7 +8999,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "tab",
@@ -8684,7 +9082,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       }, {
         "description" : "Right Command to K",
@@ -8763,7 +9166,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "l",
@@ -8839,7 +9247,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -8915,7 +9328,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "q",
@@ -8993,7 +9411,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "w",
@@ -9071,7 +9494,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "e",
@@ -9149,7 +9577,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "r",
@@ -9227,7 +9660,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "t",
@@ -9305,7 +9743,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "a",
@@ -9383,7 +9826,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "s",
@@ -9461,7 +9909,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "d",
@@ -9539,7 +9992,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "f",
@@ -9617,7 +10075,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "g",
@@ -9695,7 +10158,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "z",
@@ -9773,7 +10241,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "x",
@@ -9851,7 +10324,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "c",
@@ -9929,7 +10407,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "v",
@@ -10007,7 +10490,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "1",
@@ -10085,7 +10573,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "2",
@@ -10163,7 +10656,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "3",
@@ -10241,7 +10739,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "4",
@@ -10319,7 +10822,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "5",
@@ -10397,7 +10905,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "grave_accent_and_tilde",
@@ -10475,7 +10988,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "tab",
@@ -10553,7 +11071,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       }, {
         "description" : "Right Control to L",
@@ -10632,7 +11155,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "k",
@@ -10708,7 +11236,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -10784,7 +11317,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "q",
@@ -10862,7 +11400,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "w",
@@ -10940,7 +11483,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "e",
@@ -11018,7 +11566,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "r",
@@ -11096,7 +11649,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "t",
@@ -11174,7 +11732,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "a",
@@ -11252,7 +11815,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "s",
@@ -11330,7 +11898,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "d",
@@ -11408,7 +11981,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "f",
@@ -11486,7 +12064,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "g",
@@ -11564,7 +12147,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "z",
@@ -11642,7 +12230,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "x",
@@ -11720,7 +12313,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "c",
@@ -11798,7 +12396,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "v",
@@ -11876,7 +12479,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "b",
@@ -11954,7 +12562,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "1",
@@ -12032,7 +12645,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "2",
@@ -12110,7 +12728,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "3",
@@ -12188,7 +12811,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "4",
@@ -12266,7 +12894,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "5",
@@ -12344,7 +12977,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "grave_accent_and_tilde",
@@ -12422,7 +13060,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "tab",
@@ -12500,7 +13143,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       }, {
         "description" : "Right Option to ;",
@@ -12581,7 +13229,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "s",
@@ -12659,7 +13312,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "d",
@@ -12737,7 +13395,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         }, {
           "from" : {
             "key_code" : "f",
@@ -12815,7 +13478,12 @@
                 }
               } ]
             }
-          }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
         } ]
       } ]
     },
