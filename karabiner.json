@@ -35,416 +35,7 @@
         "description" : "Left Option to A",
         "manipulators" : [ {
           "from" : {
-            "key_code" : "s",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "left_control"
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_control"
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "s"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "d",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "left_command"
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_command"
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "d"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "f",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "left_shift"
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_shift"
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "f"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "left_arrow",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "left_arrow"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "right_arrow",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "a-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "a"
-            }, {
-              "key_code" : "right_arrow"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "a-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "up_arrow",
+            "key_code" : "j",
             "modifiers" : {
               "optional" : [ "any" ]
             }
@@ -505,7 +96,7 @@
             "simultaneous" : [ {
               "key_code" : "a"
             }, {
-              "key_code" : "up_arrow"
+              "key_code" : "j"
             } ],
             "simultaneous_options" : {
               "detect_key_down_uninterruptedly" : true,
@@ -519,15 +110,166 @@
                 }
               } ]
             }
+          }
+        }, {
+          "from" : {
+            "key_code" : "k",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
           },
+          "to" : [ {
+            "key_code" : "left_arrow",
+            "modifiers" : [ "left_option" ]
+          } ],
           "conditions" : [ {
             "name" : "semicolon-mode",
             "value" : 1,
             "type" : "variable_unless"
-          } ]
+          }, {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "a-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "left_arrow",
+            "modifiers" : [ "left_option" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "a"
+            }, {
+              "key_code" : "k"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "a-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          }
         }, {
           "from" : {
-            "key_code" : "down_arrow",
+            "key_code" : "l",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "right_arrow",
+            "modifiers" : [ "left_option" ]
+          } ],
+          "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "a-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "right_arrow",
+            "modifiers" : [ "left_option" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "a"
+            }, {
+              "key_code" : "l"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "a-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          }
+        }, {
+          "from" : {
+            "key_code" : "semicolon",
             "modifiers" : {
               "optional" : [ "any" ]
             }
@@ -588,7 +330,7 @@
             "simultaneous" : [ {
               "key_code" : "a"
             }, {
-              "key_code" : "down_arrow"
+              "key_code" : "semicolon"
             } ],
             "simultaneous_options" : {
               "detect_key_down_uninterruptedly" : true,
@@ -602,12 +344,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         } ]
       }, {
         "description" : "Left Control to S",
@@ -686,12 +423,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "d",
@@ -767,12 +499,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "f",
@@ -848,12 +575,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "u",
@@ -931,12 +653,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "i",
@@ -1014,12 +731,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "p",
@@ -1097,12 +809,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "h",
@@ -1180,12 +887,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "j",
@@ -1263,12 +965,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "k",
@@ -1346,12 +1043,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "l",
@@ -1429,12 +1121,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -1512,12 +1199,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "b",
@@ -1595,12 +1277,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "n",
@@ -1678,12 +1355,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "m",
@@ -1761,12 +1433,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "comma",
@@ -1844,12 +1511,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "period",
@@ -1927,12 +1589,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "slash",
@@ -2010,12 +1667,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "6",
@@ -2093,12 +1745,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "7",
@@ -2176,12 +1823,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "8",
@@ -2259,12 +1901,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "9",
@@ -2342,12 +1979,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "0",
@@ -2425,12 +2057,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "hyphen",
@@ -2508,12 +2135,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "equal_sign",
@@ -2591,12 +2213,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "backslash",
@@ -2674,12 +2291,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "open_bracket",
@@ -2757,12 +2369,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "close_bracket",
@@ -2840,12 +2447,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "delete_or_backspace",
@@ -2923,12 +2525,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "quote",
@@ -3006,12 +2603,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "return_or_enter",
@@ -3089,12 +2681,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "left_arrow",
@@ -3172,12 +2759,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "right_arrow",
@@ -3255,12 +2837,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "up_arrow",
@@ -3338,12 +2915,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "down_arrow",
@@ -3421,12 +2993,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         } ]
       }, {
         "description" : "Left Command to D",
@@ -3505,12 +3072,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "s",
@@ -3586,12 +3148,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "f",
@@ -3667,12 +3224,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "y",
@@ -3750,12 +3302,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "u",
@@ -3833,12 +3380,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "i",
@@ -3916,12 +3458,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "p",
@@ -3999,12 +3536,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "j",
@@ -4082,12 +3614,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "k",
@@ -4165,12 +3692,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "l",
@@ -4248,12 +3770,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -4331,12 +3848,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "n",
@@ -4414,12 +3926,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "m",
@@ -4497,12 +4004,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "comma",
@@ -4580,12 +4082,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "period",
@@ -4663,12 +4160,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "slash",
@@ -4746,12 +4238,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "6",
@@ -4829,12 +4316,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "7",
@@ -4912,12 +4394,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "8",
@@ -4995,12 +4472,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "9",
@@ -5078,12 +4550,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "0",
@@ -5161,12 +4628,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "hyphen",
@@ -5244,12 +4706,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "equal_sign",
@@ -5327,12 +4784,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "backslash",
@@ -5410,12 +4862,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "open_bracket",
@@ -5493,12 +4940,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "close_bracket",
@@ -5576,12 +5018,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "delete_or_backspace",
@@ -5659,12 +5096,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "quote",
@@ -5742,12 +5174,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "return_or_enter",
@@ -5825,12 +5252,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "left_arrow",
@@ -5908,12 +5330,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "right_arrow",
@@ -5991,12 +5408,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "up_arrow",
@@ -6074,12 +5486,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "down_arrow",
@@ -6157,12 +5564,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         } ]
       }, {
         "description" : "Left Shift to F",
@@ -6241,12 +5643,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "s",
@@ -6322,12 +5719,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "d",
@@ -6403,12 +5795,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "y",
@@ -6486,12 +5873,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "u",
@@ -6569,12 +5951,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "i",
@@ -6652,12 +6029,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "o",
@@ -6735,12 +6107,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "p",
@@ -6818,12 +6185,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "h",
@@ -6901,12 +6263,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "j",
@@ -6984,12 +6341,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "k",
@@ -7067,12 +6419,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "l",
@@ -7150,12 +6497,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -7233,12 +6575,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "n",
@@ -7316,12 +6653,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "m",
@@ -7399,12 +6731,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "comma",
@@ -7482,12 +6809,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "period",
@@ -7565,12 +6887,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "slash",
@@ -7648,12 +6965,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "6",
@@ -7731,12 +7043,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "7",
@@ -7814,12 +7121,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "8",
@@ -7897,12 +7199,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "9",
@@ -7980,12 +7277,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "0",
@@ -8063,12 +7355,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "hyphen",
@@ -8146,12 +7433,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "equal_sign",
@@ -8229,12 +7511,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "backslash",
@@ -8312,12 +7589,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "open_bracket",
@@ -8395,12 +7667,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "close_bracket",
@@ -8478,12 +7745,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "delete_or_backspace",
@@ -8561,12 +7823,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "quote",
@@ -8644,12 +7901,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "return_or_enter",
@@ -8727,12 +7979,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "left_arrow",
@@ -8810,12 +8057,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "right_arrow",
@@ -8893,12 +8135,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "up_arrow",
@@ -8976,12 +8213,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "down_arrow",
@@ -9059,12 +8291,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         } ]
       }, {
         "description" : "Right Shift to J",
@@ -9143,12 +8370,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "l",
@@ -9224,12 +8446,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -9305,12 +8522,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "q",
@@ -9388,12 +8600,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "w",
@@ -9471,12 +8678,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "e",
@@ -9554,12 +8756,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "r",
@@ -9637,12 +8834,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "t",
@@ -9720,12 +8912,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "a",
@@ -9803,12 +8990,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "s",
@@ -9886,12 +9068,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "d",
@@ -9969,12 +9146,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "f",
@@ -10052,12 +9224,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "g",
@@ -10135,12 +9302,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "z",
@@ -10218,12 +9380,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "x",
@@ -10301,12 +9458,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "c",
@@ -10384,12 +9536,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "v",
@@ -10467,12 +9614,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "1",
@@ -10550,12 +9692,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "2",
@@ -10633,12 +9770,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "3",
@@ -10716,12 +9848,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "4",
@@ -10799,12 +9926,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "5",
@@ -10882,12 +10004,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "grave_accent_and_tilde",
@@ -10965,12 +10082,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "tab",
@@ -11048,12 +10160,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         } ]
       }, {
         "description" : "Right Command to K",
@@ -11132,12 +10239,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "l",
@@ -11213,12 +10315,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -11294,12 +10391,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "q",
@@ -11377,12 +10469,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "w",
@@ -11460,12 +10547,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "e",
@@ -11543,12 +10625,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "r",
@@ -11626,12 +10703,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "t",
@@ -11709,12 +10781,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "a",
@@ -11792,12 +10859,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "s",
@@ -11875,12 +10937,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "d",
@@ -11958,12 +11015,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "f",
@@ -12041,12 +11093,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "g",
@@ -12124,12 +11171,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "z",
@@ -12207,12 +11249,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "x",
@@ -12290,12 +11327,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "c",
@@ -12373,12 +11405,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "v",
@@ -12456,12 +11483,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "1",
@@ -12539,12 +11561,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "2",
@@ -12622,12 +11639,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "3",
@@ -12705,12 +11717,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "4",
@@ -12788,12 +11795,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "5",
@@ -12871,12 +11873,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "grave_accent_and_tilde",
@@ -12954,12 +11951,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "tab",
@@ -13037,12 +12029,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         } ]
       }, {
         "description" : "Right Control to L",
@@ -13121,12 +12108,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "k",
@@ -13202,12 +12184,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "semicolon",
@@ -13283,12 +12260,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "q",
@@ -13366,12 +12338,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "w",
@@ -13449,12 +12416,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "e",
@@ -13532,12 +12494,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "r",
@@ -13615,12 +12572,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "t",
@@ -13698,12 +12650,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "a",
@@ -13781,12 +12728,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "s",
@@ -13864,12 +12806,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "d",
@@ -13947,12 +12884,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "f",
@@ -14030,12 +12962,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "g",
@@ -14113,12 +13040,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "z",
@@ -14196,12 +13118,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "x",
@@ -14279,12 +13196,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "c",
@@ -14362,12 +13274,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "v",
@@ -14445,12 +13352,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "b",
@@ -14528,12 +13430,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "1",
@@ -14611,12 +13508,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "2",
@@ -14694,12 +13586,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "3",
@@ -14777,12 +13664,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "4",
@@ -14860,12 +13742,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "5",
@@ -14943,12 +13820,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "grave_accent_and_tilde",
@@ -15026,12 +13898,7 @@
                 }
               } ]
             }
-          },
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
+          }
         }, {
           "from" : {
             "key_code" : "tab",
@@ -15109,12 +13976,322 @@
                 }
               } ]
             }
+          }
+        } ]
+      }, {
+        "description" : "Right Option to ;",
+        "manipulators" : [ {
+          "from" : {
+            "key_code" : "a",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
           },
+          "to" : [ {
+            "key_code" : "up_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
           "conditions" : [ {
             "name" : "semicolon-mode",
             "value" : 1,
+            "type" : "variable_if"
+          }, {
+            "name" : "l-mode",
+            "value" : 1,
             "type" : "variable_unless"
-          } ]
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "semicolon-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "up_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "semicolon"
+            }, {
+              "key_code" : "a"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "semicolon-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          }
+        }, {
+          "from" : {
+            "key_code" : "s",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "left_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          }, {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "semicolon-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "left_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "semicolon"
+            }, {
+              "key_code" : "s"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "semicolon-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          }
+        }, {
+          "from" : {
+            "key_code" : "d",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "right_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          }, {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "semicolon-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "right_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "semicolon"
+            }, {
+              "key_code" : "d"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "semicolon-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          }
+        }, {
+          "from" : {
+            "key_code" : "f",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "down_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          }, {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "semicolon-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "down_arrow",
+            "modifiers" : [ "right_option" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "semicolon"
+            }, {
+              "key_code" : "f"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "semicolon-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          }
         } ]
       } ]
     },

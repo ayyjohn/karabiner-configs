@@ -73,7 +73,7 @@
              :j-mode {:key :j} ;; right shift
              :k-mode {:key :k} ;; right command
              :l-mode {:key :l} ;; right control
-            ;;  :semicolon-mode {:key :semicolon} ;; right option
+             :semicolon-mode {:key :semicolon} ;; right option
              :symbol-mode {:key :right_command} ;; right command => home row syms
              :symbol-mode-2 {:key :left_command} ;; left command => home row syms
              :number-mode {:key :right_option} ;; right option => home row nums
@@ -147,10 +147,10 @@
         ;; map s to left control, d to left command, f to left shift
         ;; (thus allowing for multiple to be held at once)
          :rules [[:condi :a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode :!semicolon-mode]
-                ;;   [:##a :left_option]
-                 [:##s :left_control]
-                 [:##d :left_command]
-                 [:##f :left_shift]
+                ;;  [:##a :left_option]
+                ;;  [:##s :left_control]
+                ;;  [:##d :left_command]
+                ;;  [:##f :left_shift]
 
                   ;; qwerty 30x grid
         ;; when a-mode is active and not any of the other modes are active
@@ -216,10 +216,11 @@
                 ;;  [:##tab :!Otab]
 
                 ;;  [:##escape :!Oescape]
-                 [:##left_arrow :!Oleft_arrow]
-                 [:##right_arrow :!Oright_arrow]
-                 [:##up_arrow :!Oup_arrow]
-                 [:##down_arrow :!Odown_arrow]
+                ;; when holding left option, jkl; (htns) => option left/up/down/right
+                 [:##j :!Oup_arrow]
+                 [:##k :!Oleft_arrow]
+                 [:##l :!Oright_arrow]
+                 [:##semicolon :!Odown_arrow]
                 ;; personal preference: since option-space is 
                 ;; my keybinding for entering an omnifocus item
                 ;; disable this
@@ -862,17 +863,18 @@
                 ;;  [:##o :!Eo]
                 ;;  [:##p :!Ep]
 
-                  ; home-row
-                ;;  [:##a :!Ea]
-                ;;  [:##s :!Es]
-                ;;  [:##d :!Ed]
-                ;;  [:##f :!Ef]
+                ;; home-row
+                ;; when holding right option, asdf (aoeu) => option left/up/down/right
+                 [:##a :!Eup_arrow]
+                 [:##s :!Eleft_arrow]
+                 [:##d :!Eright_arrow]
+                 [:##f :!Edown_arrow]
                 ;;  [:##g :!Eg]
                 ;;  [:##h :!Eh]
                 ;;  [:##j :!Ej]
                 ;;  [:##k :!Ek]
                 ;;  [:##l :!El]
-                  ;; [:##semicolon :!Esemicolon]
+                ;;  [:##semicolon :!Esemicolon]
 
                   ;botton row
                 ;;  [:##z :!Ez]
