@@ -295,6 +295,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -378,6 +382,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -461,6 +469,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -544,6 +556,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -627,6 +643,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -710,6 +730,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -793,6 +817,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -876,6 +904,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -959,6 +991,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1042,6 +1078,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1125,6 +1165,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1208,6 +1252,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1291,6 +1339,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1374,6 +1426,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1457,6 +1513,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1541,6 +1601,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1622,6 +1686,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1703,6 +1771,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1786,6 +1858,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1869,6 +1945,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -1952,6 +2032,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2035,6 +2119,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2118,6 +2206,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2201,6 +2293,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2284,6 +2380,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2367,6 +2467,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2450,6 +2554,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2533,6 +2641,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2616,6 +2728,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2699,6 +2815,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2782,6 +2902,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2865,6 +2989,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -2948,6 +3076,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3031,6 +3163,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3114,6 +3250,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3197,6 +3337,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3280,6 +3424,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3363,6 +3511,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3446,6 +3598,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3529,6 +3685,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3612,6 +3772,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3695,6 +3859,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3778,6 +3946,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3861,6 +4033,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -3944,6 +4120,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4027,6 +4207,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4110,6 +4294,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4193,6 +4381,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4277,6 +4469,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4358,6 +4554,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4439,6 +4639,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4522,6 +4726,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4605,6 +4813,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4688,6 +4900,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4771,6 +4987,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4854,6 +5074,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -4937,6 +5161,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5020,6 +5248,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5103,6 +5335,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5186,6 +5422,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5269,6 +5509,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5352,6 +5596,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5435,6 +5683,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5518,6 +5770,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5601,6 +5857,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5684,6 +5944,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5767,6 +6031,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5850,6 +6118,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -5933,6 +6205,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6016,6 +6292,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6099,6 +6379,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6182,6 +6466,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6265,6 +6553,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6348,6 +6640,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6431,6 +6727,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6514,6 +6814,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6597,6 +6901,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6680,6 +6988,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6763,6 +7075,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6846,6 +7162,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -6929,6 +7249,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7012,6 +7336,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7095,6 +7423,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7179,6 +7511,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7260,6 +7596,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7341,6 +7681,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7424,6 +7768,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7507,6 +7855,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7590,6 +7942,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7673,6 +8029,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7756,6 +8116,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7839,6 +8203,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -7922,6 +8290,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8005,6 +8377,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8088,6 +8464,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8171,6 +8551,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8254,6 +8638,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8337,6 +8725,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8420,6 +8812,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8503,6 +8899,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8586,6 +8986,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8669,6 +9073,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8752,6 +9160,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8835,6 +9247,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -8918,6 +9334,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9001,6 +9421,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9084,6 +9508,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9168,6 +9596,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9249,6 +9681,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9330,6 +9766,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9413,6 +9853,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9496,6 +9940,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9579,6 +10027,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9662,6 +10114,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9745,6 +10201,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9828,6 +10288,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9911,6 +10375,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -9994,6 +10462,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10077,6 +10549,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10160,6 +10636,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10243,6 +10723,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10326,6 +10810,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10409,6 +10897,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10492,6 +10984,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10575,6 +11071,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10658,6 +11158,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10741,6 +11245,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10824,6 +11332,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10907,6 +11419,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -10990,6 +11506,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -11073,6 +11593,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -11082,581 +11606,6 @@
         "description" : "Right Control to L",
         "manipulators" : [ {
           "from" : {
-            "key_code" : "j",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "right_shift"
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_shift"
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "j"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "k",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "right_command"
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_command"
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "k"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "semicolon",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "right_option"
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_option"
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "semicolon"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "q",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "q",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "q",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "q"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "w",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "w",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "w",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "w"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "e",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "e",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "e",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "e"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "r",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "r",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "r",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "r"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
             "key_code" : "t",
             "modifiers" : {
               "optional" : [ "any" ]
@@ -11734,6 +11683,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -11817,89 +11770,10 @@
             }
           },
           "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "s",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "s",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
             "name" : "semicolon-mode",
             "value" : 1,
             "type" : "variable_unless"
           }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "s",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "s"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -11983,421 +11857,10 @@
             }
           },
           "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "f",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "f",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
             "name" : "semicolon-mode",
             "value" : 1,
             "type" : "variable_unless"
           }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "f",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "f"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "g",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "g",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "g",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "g"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "z",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "z",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "z",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "z"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "x",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "x",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "x",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "x"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "c",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "c",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "c",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "c"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -12481,89 +11944,10 @@
             }
           },
           "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "b",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "b",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
             "name" : "semicolon-mode",
             "value" : 1,
             "type" : "variable_unless"
           }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "b",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "b"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -12647,6 +12031,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -12730,6 +12118,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -12813,6 +12205,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -12896,6 +12292,10 @@
             }
           },
           "conditions" : [ {
+            "name" : "semicolon-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
@@ -12979,507 +12379,10 @@
             }
           },
           "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "grave_accent_and_tilde",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "grave_accent_and_tilde",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
             "name" : "semicolon-mode",
             "value" : 1,
             "type" : "variable_unless"
           }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "grave_accent_and_tilde",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "grave_accent_and_tilde"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "tab",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "tab",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "l-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "tab",
-            "modifiers" : [ "right_control" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "l"
-            }, {
-              "key_code" : "tab"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "l-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        } ]
-      }, {
-        "description" : "Right Option to ;",
-        "manipulators" : [ {
-          "from" : {
-            "key_code" : "a",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "up_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "semicolon-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "up_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "semicolon"
-            }, {
-              "key_code" : "a"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "semicolon-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "s",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "semicolon-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "semicolon"
-            }, {
-              "key_code" : "s"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "semicolon-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "d",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "semicolon-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "semicolon"
-            }, {
-              "key_code" : "d"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "semicolon-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ]
-        }, {
-          "from" : {
-            "key_code" : "f",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "down_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "semicolon-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          }, {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "a-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "semicolon-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "down_arrow",
-            "modifiers" : [ "right_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "semicolon"
-            }, {
-              "key_code" : "f"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "semicolon-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          },
-          "conditions" : [ {
             "name" : "a-mode",
             "value" : 1,
             "type" : "variable_unless"
