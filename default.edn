@@ -248,7 +248,7 @@
                 ;;  [:##f19 :!Of19]
                 ;;  [:##f20 :!Of20]
                  ]}
-        {:des "Left Control and Option to S"
+        {:des "Left Control (and Option sometimes) to S"
          :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
         ;;  disable combos, if there's a command-control/command-shift, enable that specifically
                 ;;  [:##a :left_option]
@@ -272,18 +272,19 @@
                 ;;  [:##k :!Tk]
                 ;;  [:##l :!Tl]
                 ;;  [:##semicolon :!Tsemicolon]
-                ;; !! option
+                ;; !! option stuff
                 ;; for jkl; (htns) left control is option arrow keys
-                 [:##j :!Oup_arrow]
-                 [:##k :!Oleft_arrow]
-                 [:##l :!Oright_arrow]
-                 [:##semicolon :!Odown_arrow]
+                ;;  [:##j :!Oup_arrow]
+                ;;  [:##k :!Oleft_arrow]
+                ;;  [:##l :!Oright_arrow]
+                ;;  [:##semicolon :!Odown_arrow]
 
                 ;;  bottom row
                 ;;  [:##b :!Tb]
-                ;;  [:##n :!Tn]
+                ;; option b and option w
+                 [:##n :!On]
                 ;;  [:##m :!Tm]
-                ;;  [:##comma :!Tcomma]
+                 [:##comma :!Ocomma]
                 ;;  [:##period :!Tperiod]
                 ;;  [:##slash :!Tslash]
 
