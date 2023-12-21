@@ -322,7 +322,7 @@
                 ;; disable this
                 ;;  [:##spacebar :!Tspacebar]
 
-                  ;;functions
+                ;;  functions
                 ;;  [:##f1 :!Tf1]
                 ;;  [:##f2 :!Tf2]
                 ;;  [:##f3 :!Tf3]
