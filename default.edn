@@ -179,7 +179,7 @@
                 ;;  [:##l :!Ol]
                 ;;  [:##semicolon :!Osemicolon]
 
-                ;; botton row
+                ;; bottom row
                 ;;  [:##z :!Oz]
                 ;;  [:##x :!Ox]
                 ;;  [:##c :!Oc]
@@ -285,7 +285,8 @@
                  [:##n :!Oleft_arrow]
                 ;;  [:##m :!Tm]
                  [:##comma :!Oright_arrow]
-                ;;  [:##period :!Tperiod]
+                 ;; control v for visual mode
+                 [:##period :!Tperiod]
                 ;;  [:##slash :!Tslash]
 
                   ;; number row
@@ -394,7 +395,8 @@
                 ;; command b stays
                  [:##n :!Cn]
                 ;;  [:##m :!Cm]
-                ;;  [:##comma :!Ccomma]
+                ;; command w
+                 [:##comma :!Ccomma]
                 ;; command v
                  [:##period :!Cperiod]
                 ;; command z
