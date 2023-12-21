@@ -65,7 +65,7 @@
 ;; command-tab until command-tab is considered "held" so you can see the options
  :simlayer-threshold 500
  :simlayers {;; left-hand on ACGS
-             :a-mode {:key :a} ;; left option
+            ;;  :a-mode {:key :a} ;; left option
              :s-mode {:key :s} ;; left control
              :d-mode {:key :d} ;; left command
              :f-mode {:key :f} ;; left shift
