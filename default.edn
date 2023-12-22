@@ -175,7 +175,8 @@
                 ;;  [:##g :!Og]
                 ;;  [:##h :!Oh]
                 ;;  [:##j :!Oj]
-                ;;  [:##k :!Ok]
+                ;; control t
+                 [:##k :!Ok]
                 ;;  [:##l :!Ol]
                 ;;  [:##semicolon :!Osemicolon]
 

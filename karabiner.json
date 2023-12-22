@@ -35,6 +35,47 @@
         "description" : "Left Option/Control to S",
         "manipulators" : [ {
           "from" : {
+            "key_code" : "k",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "k",
+            "modifiers" : [ "left_option" ]
+          } ],
+          "conditions" : [ {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          } ],
+          "type" : "basic"
+        }, {
+          "from" : {
             "key_code" : "j",
             "modifiers" : {
               "optional" : [ "any" ]
