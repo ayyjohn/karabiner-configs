@@ -32,359 +32,6 @@
           "type" : "basic"
         } ]
       }, {
-        "description" : "Left Option/Control to S",
-        "manipulators" : [ {
-          "from" : {
-            "key_code" : "k",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "k",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "s-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "k",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "s"
-            }, {
-              "key_code" : "k"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "s-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        }, {
-          "from" : {
-            "key_code" : "j",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "up_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "s-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "up_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "s"
-            }, {
-              "key_code" : "j"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "s-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        }, {
-          "from" : {
-            "key_code" : "k",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "s-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "left_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "s"
-            }, {
-              "key_code" : "k"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "s-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        }, {
-          "from" : {
-            "key_code" : "l",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "s-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "right_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "s"
-            }, {
-              "key_code" : "l"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "s-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        }, {
-          "from" : {
-            "key_code" : "semicolon",
-            "modifiers" : {
-              "optional" : [ "any" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "down_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "conditions" : [ {
-            "name" : "l-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "k-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "j-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "f-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "d-mode",
-            "value" : 1,
-            "type" : "variable_unless"
-          }, {
-            "name" : "s-mode",
-            "value" : 1,
-            "type" : "variable_if"
-          } ],
-          "type" : "basic"
-        }, {
-          "type" : "basic",
-          "parameters" : {
-            "basic.simultaneous_threshold_milliseconds" : 500
-          },
-          "to" : [ {
-            "set_variable" : {
-              "name" : "s-mode",
-              "value" : 1
-            }
-          }, {
-            "key_code" : "down_arrow",
-            "modifiers" : [ "left_option" ]
-          } ],
-          "from" : {
-            "simultaneous" : [ {
-              "key_code" : "s"
-            }, {
-              "key_code" : "semicolon"
-            } ],
-            "simultaneous_options" : {
-              "detect_key_down_uninterruptedly" : true,
-              "key_down_order" : "strict",
-              "key_up_order" : "strict_inverse",
-              "key_up_when" : "any",
-              "to_after_key_up" : [ {
-                "set_variable" : {
-                  "name" : "s-mode",
-                  "value" : 0
-                }
-              } ]
-            }
-          }
-        } ]
-      }, {
         "description" : "Left Control (and Option sometimes) to S",
         "manipulators" : [ {
           "from" : {
@@ -446,6 +93,85 @@
               "key_code" : "s"
             }, {
               "key_code" : "h"
+            } ],
+            "simultaneous_options" : {
+              "detect_key_down_uninterruptedly" : true,
+              "key_down_order" : "strict",
+              "key_up_order" : "strict_inverse",
+              "key_up_when" : "any",
+              "to_after_key_up" : [ {
+                "set_variable" : {
+                  "name" : "s-mode",
+                  "value" : 0
+                }
+              } ]
+            }
+          },
+          "conditions" : [ {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ]
+        }, {
+          "from" : {
+            "key_code" : "k",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "k",
+            "modifiers" : [ "left_control" ]
+          } ],
+          "conditions" : [ {
+            "name" : "l-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "k-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "j-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "f-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "d-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          }, {
+            "name" : "s-mode",
+            "value" : 1,
+            "type" : "variable_if"
+          }, {
+            "name" : "a-mode",
+            "value" : 1,
+            "type" : "variable_unless"
+          } ],
+          "type" : "basic"
+        }, {
+          "type" : "basic",
+          "parameters" : {
+            "basic.simultaneous_threshold_milliseconds" : 500
+          },
+          "to" : [ {
+            "set_variable" : {
+              "name" : "s-mode",
+              "value" : 1
+            }
+          }, {
+            "key_code" : "k",
+            "modifiers" : [ "left_control" ]
+          } ],
+          "from" : {
+            "simultaneous" : [ {
+              "key_code" : "s"
+            }, {
+              "key_code" : "k"
             } ],
             "simultaneous_options" : {
               "detect_key_down_uninterruptedly" : true,
