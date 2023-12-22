@@ -66,18 +66,12 @@
  :simlayer-threshold 500
  :simlayers {;; left-hand on ACGS
              :s-mode {:key :s} ;; left control
-
              :d-mode {:key :d} ;; left command
              :f-mode {:key :f} ;; left shift
               ;; right-hand on SGCA
              :j-mode {:key :j} ;; right shift
              :k-mode {:key :k} ;; right command
              :l-mode {:key :l} ;; right control
-            ;;  :semicolon-mode {:key :semicolon} ;; right option
-             :symbol-mode {:key :right_command} ;; right command => home row syms
-             :symbol-mode-2 {:key :left_command} ;; left command => home row syms
-             :number-mode {:key :right_option} ;; right option => home row nums
-             :number-mode-2 {:key :left_option}} ;; left option => home row nums
  :main [{:des   "caps_lock to esc when pressed alone, to ctrl as modifier"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
         {:des "Left Control (and Option sometimes) to S"
@@ -99,7 +93,7 @@
                  [:##n :!Oleft_arrow]
                 ;;  option right arrow from w
                  [:##comma :!Oright_arrow]
-                 ;; control v (for visual mode)
+                ;; control v (for visual mode)
                  [:##period :!Tperiod]
 
                 ;; number row
@@ -116,7 +110,6 @@
                  [:##right_arrow :!Tright_arrow]
                  [:##up_arrow :!Tup_arrow]
                  [:##down_arrow :!Tdown_arrow]]}
-
         {:des "Left Command to D"
          :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
                 ;;  [:##a :left_option]
@@ -180,14 +173,14 @@
                 ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
 
-                  ;; top-row
+                ;; top-row
                  [:##y :!Sy]
                  [:##u :!Su]
                  [:##i :!Si]
                  [:##o :!So]
                  [:##p :!Sp]
 
-                  ;; home-row
+                ;; home-row
                  [:##h :!Sh]
                  [:##j :!Sj]
                  [:##k :!Sk]
@@ -208,7 +201,7 @@
                  [:##9 :!S9]
                  [:##0 :!S0]
 
-                  ;; other keys
+                ;; other keys
                  [:##hyphen :!Shyphen]
                  [:##equal_sign :!Sequal_sign]
                  [:##backslash :!Sbackslash]
