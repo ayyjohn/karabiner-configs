@@ -65,7 +65,6 @@
 ;; command-tab until command-tab is considered "held" so you can see the options
  :simlayer-threshold 500
  :simlayers {;; left-hand on ACGS
-            ;;  :a-mode {:key :a} ;; left option
              :s-mode {:key :s} ;; left control
              :d-mode {:key :d} ;; left command
              :f-mode {:key :f} ;; left shift
@@ -146,8 +145,8 @@
         ;; when a-mode is active and not any of the other modes are active
         ;; map s to left control, d to left command, f to left shift
         ;; (thus allowing for multiple to be held at once)
-         :rules [[:condi :a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
-                ;;  [:##a :left_option]
+         :rules [[:condi :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
+                ;;  [:##_ :left_option]
                 ;;  [:##s :left_control]
                 ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
