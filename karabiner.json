@@ -7567,8 +7567,8 @@
             }
           },
           "to" : [ {
-            "key_code" : "t",
-            "modifiers" : [ "right_command" ]
+            "key_code" : "slash",
+            "modifiers" : [ "right_command", "right_shift" ]
           } ],
           "conditions" : [ {
             "name" : "l-mode",
@@ -7611,8 +7611,8 @@
               "value" : 1
             }
           }, {
-            "key_code" : "t",
-            "modifiers" : [ "right_command" ]
+            "key_code" : "slash",
+            "modifiers" : [ "right_command", "right_shift" ]
           } ],
           "from" : {
             "simultaneous" : [ {
