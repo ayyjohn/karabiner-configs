@@ -33,11 +33,11 @@
              ;; they're used instead of normal layers because in normal layers
              ;; there's no flexibility on timing. if a key is down and that key enables a layer,
              ;; that layer will be on, so no rolling keys alowed.
-             ;; simultaneous does not modify events if any 
+             ;; simultaneous does not modify events if any
              ;; `from` events are released before all `from` events are pressed.
-             ;; and simultaneous does not modify events if `from` events are interrupted by 
+             ;; and simultaneous does not modify events if `from` events are interrupted by
              ;; another key_down event.
-             ;; they also don't care about order, so that could be why 
+             ;; they also don't care about order, so that could be why
              ;; holding two of them together was acting a bit weird?
              ;; like if i type shift-l-g sometimes it comes out as LG.
              ;; The key_up event is posted when you release the first `from`
@@ -47,7 +47,7 @@
              ;; for them to be considered "simultaneous".
              ;; (not how long they have to be held together).
              ;; if this is set to a longer value, keys will be considered
-             ;; pressed simultaneously easier. 
+             ;; pressed simultaneously easier.
              ;; :sim     800
              ;; documentation: simultaneous_threshold_milliseconds
              }}
@@ -61,7 +61,7 @@
 ;; to wait this long for the sim to fire so try and find a value sufficiently high that you don't accidentally trigger
 ;; the mods often by accident but also low enough that you don't mind the lag between hitting, say, cmd-a and actually
 ;; highlighting the thing.
-;; one thing it definitely controls is how long you have to hold command for something like 
+;; one thing it definitely controls is how long you have to hold command for something like
 ;; command-tab until command-tab is considered "held" so you can see the options
  :simlayer-threshold 500
  :simlayers {;; left-hand on ACGS
@@ -85,11 +85,14 @@
                 ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
 
-                ;; home-row
+                ;; home row
                 ;; control d
                  [:##h :!Th]
                 ;; control t
                  [:##k :!Tk]
+
+                ;; top row
+                 [:##i :!Ti]
 
                 ;; bottom row
                 ;; option left arrow from b
@@ -107,7 +110,7 @@
                  [:##0 :!T0]
 
                 ;; other keys
-                ;; option backspace 
+                ;; option backspace
                  [:##delete_or_backspace :!Odelete_or_backspace]
                  [:##left_arrow :!Tleft_arrow]
                  [:##right_arrow :!Tright_arrow]
@@ -120,7 +123,7 @@
                 ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
 
-                ;; top-row
+                ;; top row
                 ;; command f
                  [:##y :!Cy]
                 ;; command c
@@ -128,7 +131,7 @@
                 ;; command l
                  [:##p :!Cp]
 
-                ;; home-row
+                ;; home row
                 ;; command t
                  [:##k :!Ck]
                 ;;  command n
@@ -176,14 +179,14 @@
                 ;;  [:##d :left_command]
                 ;;  [:##f :left_shift]
 
-                ;; top-row
+                ;; top row
                  [:##y :!Sy]
                  [:##u :!Su]
                  [:##i :!Si]
                  [:##o :!So]
                  [:##p :!Sp]
 
-                ;; home-row
+                ;; home row
                  [:##h :!Sh]
                  [:##j :!Sj]
                  [:##k :!Sk]
@@ -224,14 +227,14 @@
                 ;;  [:##l :right_control]
                 ;;  [:##semicolon :right_option]
 
-                ;; top-row
+                ;; top row
                  [:##q :!Rq]
                  [:##w :!Rw]
                  [:##e :!Re]
                  [:##r :!Rr]
                  [:##t :!Rt]
 
-                ;; home-row
+                ;; home row
                  [:##a :!Ra]
                  [:##s :!Rs]
                  [:##d :!Rd]
@@ -261,14 +264,14 @@
                 ;;  [:##l :right_control]
                 ;;  [:##semicolon :right_option]
 
-                ;; top-row
+                ;; top row
                  [:##q :!Qq]
                  [:##w :!Qw]
                  [:##e :!Qe]
                  [:##r :!Qr]
                  [:##t :!QRslash]
 
-                ;; home-row
+                ;; home row
                  [:##a :!Qa]
                  [:##s :!Qs]
                  [:##d :!Qd]
@@ -298,11 +301,11 @@
                 ;;  [:##l :right_control]
                 ;;  [:##semicolon :right_option]
 
-                ;; top-row
+                ;; top row
                 ;; control y
                  [:##t :!Wt]
 
-                ;; home-row
+                ;; home row
                 ;; control a
                  [:##a :!Wa]
                 ;; control e
