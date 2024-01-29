@@ -76,6 +76,10 @@
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
         {:des   "right option to esc when pressed alone, control when held"
          :rules [[:##right_option :left_control nil {:alone :escape}]]}
+         {:des   "left command h to Tab"
+         :rules [[:!Ch :tab]]}
+         {:des   "right command i to shift Tab"
+         :rules [[:!Qg :!Stab]]}
         {:des "Left Control (and Option sometimes) to S"
          :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
                 ;;  disable combos, if there's a specific command-control/command-shift, enable that specifically
