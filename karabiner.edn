@@ -75,7 +75,7 @@
  :main [{:des   "caps lock to esc when pressed alone, to ctrl as modifier"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
         {:des   "right option to esc when pressed alone, control when held"
-         :rules [[:##right_option :left_control nil {:alone :escape}]]}
+         :rules [[:##right_option :right_option nil {:alone :escape}]]}
         {:des   "left command h to Tab"
          :rules [[:!Ch :tab]]}
         {:des   "right command i to shift Tab"
