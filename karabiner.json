@@ -49,35 +49,6 @@
           "type" : "basic"
         } ]
       }, {
-        "description" : "left command h to Tab",
-        "manipulators" : [ {
-          "from" : {
-            "key_code" : "h",
-            "modifiers" : {
-              "mandatory" : [ "left_command" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "tab"
-          } ],
-          "type" : "basic"
-        } ]
-      }, {
-        "description" : "right command i to shift Tab",
-        "manipulators" : [ {
-          "from" : {
-            "key_code" : "g",
-            "modifiers" : {
-              "mandatory" : [ "right_command" ]
-            }
-          },
-          "to" : [ {
-            "key_code" : "tab",
-            "modifiers" : [ "left_shift" ]
-          } ],
-          "type" : "basic"
-        } ]
-      }, {
         "description" : "command y to command shift z",
         "manipulators" : [ {
           "from" : {
