@@ -76,10 +76,10 @@
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
         {:des   "right option to esc when pressed alone, control when held"
          :rules [[:##right_option :right_option nil {:alone :escape}]]}
-        {:des   "left command h to Tab"
-         :rules [[:!Ch :tab]]}
-        {:des   "right command i to shift Tab"
-         :rules [[:!Qg :!Stab]]}
+       ;;  {:des   "left command h to Tab"
+       ;;   :rules [[:!Ch :tab]]}
+       ;;  {:des   "right command i to shift Tab"
+       ;;   :rules [[:!Qg :!Stab]]}
         {:des   "command y to command shift z"
          :rules [[:!Ct :!CSslash]]}
         {:des   "command y to command shift z"
