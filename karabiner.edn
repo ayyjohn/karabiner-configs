@@ -72,259 +72,262 @@
              :j-mode {:key :j} ;; right shift
              :k-mode {:key :k} ;; right command
              :l-mode {:key :l}} ;; right control
- :main [{:des   "caps lock to esc when pressed alone, to ctrl as modifier"
+ :main [{:des   "caps lock to esc when tapped alone, to ctrl when held"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
-        {:des   "right option to esc when pressed alone, control when held"
-         :rules [[:##right_option :right_option nil {:alone :escape}]]}
+       ;;   deactivating this because option is sticky now so it's less fun
+       ;; doesn't work because hitting enter hits control enter
+       ;;  {:des   "enter to enter when tapped alone, control when held"
+       ;;   :rules [[:##return_or_enter :left_control nil {:alone :return_or_enter}]]}
        ;;  {:des   "left command h to Tab"
        ;;   :rules [[:!Ch :tab]]}
        ;;  {:des   "right command i to shift Tab"
        ;;   :rules [[:!Qg :!Stab]]}
-        {:des   "command y to command shift z"
-         :rules [[:!Ct :!CSslash]]}
-        {:des   "command y to command shift z"
-         :rules [[:!Qt :!CSslash]]}
-        {:des "Left Control (and Option sometimes) to S"
-         :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
-                ;;  disable combos, if there's a specific command-control/command-shift, enable that specifically
-                ;;  [:##a :left_option]
-                ;;  [:##s :left_control]
-                ;;  [:##d :left_command]
-                ;;  [:##f :left_shift]
+       ;;  {:des   "command y to command shift z"
+       ;;   :rules [[:!Ct :!CSslash]]}
+       ;;  {:des   "command y to command shift z"
+       ;;   :rules [[:!Qt :!CSslash]]}
+       ;;  {:des "Left Control (and Option sometimes) to S"
+       ;;   :rules [[:condi :!a-mode :s-mode :!d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
+       ;;          ;;  disable combos, if there's a specific command-control/command-shift, enable that specifically
+       ;;          ;;  [:##a :left_option]
+       ;;          ;;  [:##s :left_control]
+       ;;          ;;  [:##d :left_command]
+       ;;          ;;  [:##f :left_shift]
 
-                ;; home row
-                ;; control d
-                 [:##h :!Th]
-                ;; control t
-                 [:##k :!Tk]
+       ;;          ;; home row
+       ;;          ;; control d
+       ;;           [:##h :!Th]
+       ;;          ;; control t
+       ;;           [:##k :!Tk]
 
-                ;; top row
-                 [:##i :!Ti]
+       ;;          ;; top row
+       ;;           [:##i :!Ti]
 
-                ;; bottom row
-                ;; option left arrow from b
-                 [:##n :!Oleft_arrow]
-                ;;  option right arrow from w
-                 [:##comma :!Oright_arrow]
-                ;; control v (for visual mode)
-                 [:##period :!Tperiod]
+       ;;          ;; bottom row
+       ;;          ;; option left arrow from b
+       ;;           [:##n :!Oleft_arrow]
+       ;;          ;;  option right arrow from w
+       ;;           [:##comma :!Oright_arrow]
+       ;;          ;; control v (for visual mode)
+       ;;           [:##period :!Tperiod]
 
-                ;; number row
-                 [:##6 :!T6]
-                 [:##7 :!T7]
-                 [:##8 :!T8]
-                 [:##9 :!T9]
-                 [:##0 :!T0]
+       ;;          ;; number row
+       ;;           [:##6 :!T6]
+       ;;           [:##7 :!T7]
+       ;;           [:##8 :!T8]
+       ;;           [:##9 :!T9]
+       ;;           [:##0 :!T0]
 
-                ;; other keys
-                ;; option backspace
-                 [:##delete_or_backspace :!Odelete_or_backspace]
-                 [:##left_arrow :!Tleft_arrow]
-                 [:##right_arrow :!Tright_arrow]
-                 [:##up_arrow :!Tup_arrow]
-                 [:##down_arrow :!Tdown_arrow]]}
-        {:des "Left Command to D"
-         :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
-                ;;  [:##a :left_option]
-                ;;  [:##s :left_control]
-                ;;  [:##d :left_command]
-                ;;  [:##f :left_shift]
+       ;;          ;; other keys
+       ;;          ;; option backspace
+       ;;           [:##delete_or_backspace :!Odelete_or_backspace]
+       ;;           [:##left_arrow :!Tleft_arrow]
+       ;;           [:##right_arrow :!Tright_arrow]
+       ;;           [:##up_arrow :!Tup_arrow]
+       ;;           [:##down_arrow :!Tdown_arrow]]}
+       ;;  {:des "Left Command to D"
+       ;;   :rules [[:condi :!a-mode :!s-mode :d-mode :!f-mode :!j-mode :!k-mode :!l-mode]
+       ;;          ;;  [:##a :left_option]
+       ;;          ;;  [:##s :left_control]
+       ;;          ;;  [:##d :left_command]
+       ;;          ;;  [:##f :left_shift]
 
-                ;; top row
-                ;; command f
-                 [:##y :!Cy]
-                ;; command c
-                 [:##i :!Ci]
-                ;; command l
-                 [:##p :!Cp]
+       ;;          ;; top row
+       ;;          ;; command f
+       ;;           [:##y :!Cy]
+       ;;          ;; command c
+       ;;           [:##i :!Ci]
+       ;;          ;; command l
+       ;;           [:##p :!Cp]
 
-                ;; home row
-                ;; command t
-                 [:##k :!Ck]
-                ;;  command n
-                 [:##l :!Cl]
-                ;;  command s
-                 [:##semicolon :!Csemicolon]
+       ;;          ;; home row
+       ;;          ;; command t
+       ;;           [:##k :!Ck]
+       ;;          ;;  command n
+       ;;           [:##l :!Cl]
+       ;;          ;;  command s
+       ;;           [:##semicolon :!Csemicolon]
 
-                ;; bottom row
-                ;; command b
-                 [:##n :!Cn]
-                ;; command w
-                 [:##comma :!Ccomma]
-                ;; command v
-                 [:##period :!Cperiod]
-                ;; command z
-                 [:##slash :!Cslash]
+       ;;          ;; bottom row
+       ;;          ;; command b
+       ;;           [:##n :!Cn]
+       ;;          ;; command w
+       ;;           [:##comma :!Ccomma]
+       ;;          ;; command v
+       ;;           [:##period :!Cperiod]
+       ;;          ;; command z
+       ;;           [:##slash :!Cslash]
 
-                ;; number row
-                 [:##6 :!C6]
-                 [:##7 :!C7]
-                 [:##8 :!C8]
-                 [:##9 :!C9]
-                 [:##0 :!C0]
+       ;;          ;; number row
+       ;;           [:##6 :!C6]
+       ;;           [:##7 :!C7]
+       ;;           [:##8 :!C8]
+       ;;           [:##9 :!C9]
+       ;;           [:##0 :!C0]
 
-                 ;; other keys
-                 ;; command [
-                 [:##hyphen :!Chyphen]
-                 ;; command ]
-                 [:##equal_sign :!Cequal_sign]
-                 ;; command \
-                 [:##backslash :!Cbackslash]
-                 ;; command /
-                 [:##open_bracket :!Copen_bracket]
-                 ;; command +
-                 [:##close_bracket :!Cclose_bracket]
-                 ;; command delete
-                 [:##delete_or_backspace :!Cdelete_or_backspace]
-                 ;; command enter
-                 [:##return_or_enter :!Creturn_or_enter]]}
+       ;;           ;; other keys
+       ;;           ;; command [
+       ;;           [:##hyphen :!Chyphen]
+       ;;           ;; command ]
+       ;;           [:##equal_sign :!Cequal_sign]
+       ;;           ;; command \
+       ;;           [:##backslash :!Cbackslash]
+       ;;           ;; command /
+       ;;           [:##open_bracket :!Copen_bracket]
+       ;;           ;; command +
+       ;;           [:##close_bracket :!Cclose_bracket]
+       ;;           ;; command delete
+       ;;           [:##delete_or_backspace :!Cdelete_or_backspace]
+       ;;           ;; command enter
+       ;;           [:##return_or_enter :!Creturn_or_enter]]}
 
-        {:des "Left Shift to F"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode]
-                ;;  [:##a :left_option]
-                ;;  [:##s :left_control]
-                ;;  [:##d :left_command]
-                ;;  [:##f :left_shift]
+       ;;  {:des "Left Shift to F"
+       ;;   :rules [[:condi :!a-mode :!s-mode :!d-mode :f-mode :!j-mode :!k-mode :!l-mode]
+       ;;          ;;  [:##a :left_option]
+       ;;          ;;  [:##s :left_control]
+       ;;          ;;  [:##d :left_command]
+       ;;          ;;  [:##f :left_shift]
 
-                ;; top row
-                 [:##y :!Sy]
-                 [:##u :!Su]
-                 [:##i :!Si]
-                 [:##o :!So]
-                 [:##p :!Sp]
+       ;;          ;; top row
+       ;;           [:##y :!Sy]
+       ;;           [:##u :!Su]
+       ;;           [:##i :!Si]
+       ;;           [:##o :!So]
+       ;;           [:##p :!Sp]
 
-                ;; home row
-                 [:##h :!Sh]
-                 [:##j :!Sj]
-                 [:##k :!Sk]
-                 [:##l :!Sl]
-                 [:##semicolon :!Ssemicolon]
+       ;;          ;; home row
+       ;;           [:##h :!Sh]
+       ;;           [:##j :!Sj]
+       ;;           [:##k :!Sk]
+       ;;           [:##l :!Sl]
+       ;;           [:##semicolon :!Ssemicolon]
 
-                 ;; bottom row
-                 [:##n :!Sn]
-                 [:##m :!Sm]
-                 [:##comma :!Scomma]
-                 [:##period :!Speriod]
-                 [:##slash :!Sslash]
+       ;;           ;; bottom row
+       ;;           [:##n :!Sn]
+       ;;           [:##m :!Sm]
+       ;;           [:##comma :!Scomma]
+       ;;           [:##period :!Speriod]
+       ;;           [:##slash :!Sslash]
 
-                ;; number row
-                 [:##6 :!S6]
-                 [:##7 :!S7]
-                 [:##8 :!S8]
-                 [:##9 :!S9]
-                 [:##0 :!S0]
+       ;;          ;; number row
+       ;;           [:##6 :!S6]
+       ;;           [:##7 :!S7]
+       ;;           [:##8 :!S8]
+       ;;           [:##9 :!S9]
+       ;;           [:##0 :!S0]
 
-                ;; other keys
-                 [:##hyphen :!Shyphen]
-                 [:##equal_sign :!Sequal_sign]
-                 [:##backslash :!Sbackslash]
-                 [:##open_bracket :!Sopen_bracket]
-                 [:##close_bracket :!Sclose_bracket]
-                 [:##delete_or_backspace :!Sdelete_or_backspace]
-                 [:##quote :!Squote]
-                 [:##return_or_enter :!Sreturn_or_enter]
-                 [:##left_arrow :!Sleft_arrow]
-                 [:##right_arrow :!Sright_arrow]
-                 [:##up_arrow :!Sup_arrow]
-                 [:##down_arrow :!Sdown_arrow]]}
-        {:des "Right Shift to J"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :j-mode :!k-mode :!l-mode]
-                ;;  [:##j :right_shift]
-                ;;  [:##k :right_command]
-                ;;  [:##l :right_control]
-                ;;  [:##semicolon :right_option]
+       ;;          ;; other keys
+       ;;           [:##hyphen :!Shyphen]
+       ;;           [:##equal_sign :!Sequal_sign]
+       ;;           [:##backslash :!Sbackslash]
+       ;;           [:##open_bracket :!Sopen_bracket]
+       ;;           [:##close_bracket :!Sclose_bracket]
+       ;;           [:##delete_or_backspace :!Sdelete_or_backspace]
+       ;;           [:##quote :!Squote]
+       ;;           [:##return_or_enter :!Sreturn_or_enter]
+       ;;           [:##left_arrow :!Sleft_arrow]
+       ;;           [:##right_arrow :!Sright_arrow]
+       ;;           [:##up_arrow :!Sup_arrow]
+       ;;           [:##down_arrow :!Sdown_arrow]]}
+       ;;  {:des "Right Shift to J"
+       ;;   :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :j-mode :!k-mode :!l-mode]
+       ;;          ;;  [:##j :right_shift]
+       ;;          ;;  [:##k :right_command]
+       ;;          ;;  [:##l :right_control]
+       ;;          ;;  [:##semicolon :right_option]
 
-                ;; top row
-                 [:##q :!Rq]
-                 [:##w :!Rw]
-                 [:##e :!Re]
-                 [:##r :!Rr]
-                 [:##t :!Rt]
+       ;;          ;; top row
+       ;;           [:##q :!Rq]
+       ;;           [:##w :!Rw]
+       ;;           [:##e :!Re]
+       ;;           [:##r :!Rr]
+       ;;           [:##t :!Rt]
 
-                ;; home row
-                 [:##a :!Ra]
-                 [:##s :!Rs]
-                 [:##d :!Rd]
-                 [:##f :!Rf]
-                 [:##g :!Rg]
+       ;;          ;; home row
+       ;;           [:##a :!Ra]
+       ;;           [:##s :!Rs]
+       ;;           [:##d :!Rd]
+       ;;           [:##f :!Rf]
+       ;;           [:##g :!Rg]
 
-                ;; bottom row
-                 [:##z :!Rz]
-                 [:##x :!Rx]
-                 [:##c :!Rc]
-                 [:##v :!Rv]
+       ;;          ;; bottom row
+       ;;           [:##z :!Rz]
+       ;;           [:##x :!Rx]
+       ;;           [:##c :!Rc]
+       ;;           [:##v :!Rv]
 
-                ;; number row
-                 [:##1 :!R1]
-                 [:##2 :!R2]
-                 [:##3 :!R3]
-                 [:##4 :!R4]
-                 [:##5 :!R5]
+       ;;          ;; number row
+       ;;           [:##1 :!R1]
+       ;;           [:##2 :!R2]
+       ;;           [:##3 :!R3]
+       ;;           [:##4 :!R4]
+       ;;           [:##5 :!R5]
 
-                ;; other keys
-                 [:##grave_accent_and_tilde :!Rgrave_accent_and_tilde]
-                 [:##tab :!Rtab]]}
-        {:des "Right Command to K"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :k-mode :!l-mode]
-                ;;  [:##j :right_shift]
-                ;;  [:##k :right_command]
-                ;;  [:##l :right_control]
-                ;;  [:##semicolon :right_option]
+       ;;          ;; other keys
+       ;;           [:##grave_accent_and_tilde :!Rgrave_accent_and_tilde]
+       ;;           [:##tab :!Rtab]]}
+       ;;  {:des "Right Command to K"
+       ;;   :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :k-mode :!l-mode]
+       ;;          ;;  [:##j :right_shift]
+       ;;          ;;  [:##k :right_command]
+       ;;          ;;  [:##l :right_control]
+       ;;          ;;  [:##semicolon :right_option]
 
-                ;; top row
-                 [:##q :!Qq]
-                 [:##w :!Qw]
-                 [:##e :!Qe]
-                 [:##r :!Qr]
-                 [:##t :!QRslash]
+       ;;          ;; top row
+       ;;           [:##q :!Qq]
+       ;;           [:##w :!Qw]
+       ;;           [:##e :!Qe]
+       ;;           [:##r :!Qr]
+       ;;           [:##t :!QRslash]
 
-                ;; home row
-                 [:##a :!Qa]
-                 [:##s :!Qs]
-                 [:##d :!Qd]
-                 [:##f :!Qf]
-                 [:##g :!Qg]
+       ;;          ;; home row
+       ;;           [:##a :!Qa]
+       ;;           [:##s :!Qs]
+       ;;           [:##d :!Qd]
+       ;;           [:##f :!Qf]
+       ;;           [:##g :!Qg]
 
-                ;; bottom row
-                 [:##z :!Qz]
-                 [:##x :!Qx]
-                 [:##c :!Qc]
-                 [:##v :!Qv]
+       ;;          ;; bottom row
+       ;;           [:##z :!Qz]
+       ;;           [:##x :!Qx]
+       ;;           [:##c :!Qc]
+       ;;           [:##v :!Qv]
 
-                ;; number row
-                 [:##1 :!Q1]
-                 [:##2 :!Q2]
-                 [:##3 :!Q3]
-                 [:##4 :!Q4]
-                 [:##5 :!Q5]
+       ;;          ;; number row
+       ;;           [:##1 :!Q1]
+       ;;           [:##2 :!Q2]
+       ;;           [:##3 :!Q3]
+       ;;           [:##4 :!Q4]
+       ;;           [:##5 :!Q5]
 
-                ;; other keys
-                 [:##grave_accent_and_tilde :!Qgrave_accent_and_tilde]
-                 [:##tab :!Qtab]]}
-        {:des "Right Control to L"
-         :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode]
-                ;;  [:##j :right_shift]
-                ;;  [:##k :right_command]
-                ;;  [:##l :right_control]
-                ;;  [:##semicolon :right_option]
+       ;;          ;; other keys
+       ;;           [:##grave_accent_and_tilde :!Qgrave_accent_and_tilde]
+       ;;           [:##tab :!Qtab]]}
+       ;;  {:des "Right Control to L"
+       ;;   :rules [[:condi :!a-mode :!s-mode :!d-mode :!f-mode :!j-mode :!k-mode :l-mode]
+       ;;          ;;  [:##j :right_shift]
+       ;;          ;;  [:##k :right_command]
+       ;;          ;;  [:##l :right_control]
+       ;;          ;;  [:##semicolon :right_option]
 
-                ;; top row
-                ;; control y
-                 [:##t :!Wt]
+       ;;          ;; top row
+       ;;          ;; control y
+       ;;           [:##t :!Wt]
 
-                ;; home row
-                ;; control a
-                 [:##a :!Wa]
-                ;; control e
-                 [:##d :!Wd]
+       ;;          ;; home row
+       ;;          ;; control a
+       ;;           [:##a :!Wa]
+       ;;          ;; control e
+       ;;           [:##d :!Wd]
 
-                ;; bottom row
-                ;; control k
-                 [:##v :!Wv]
+       ;;          ;; bottom row
+       ;;          ;; control k
+       ;;           [:##v :!Wv]
 
-                ;; number row
-                 [:##1 :!W1]
-                 [:##2 :!W2]
-                 [:##3 :!W3]
-                 [:##4 :!W4]
-                 [:##5 :!W5]]}]}
+       ;;          ;; number row
+       ;;           [:##1 :!W1]
+       ;;           [:##2 :!W2]
+       ;;           [:##3 :!W3]
+       ;;           [:##4 :!W4]
+       ;;           [:##5 :!W5]]}
+       ]}
