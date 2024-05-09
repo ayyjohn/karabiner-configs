@@ -63,15 +63,15 @@
 ;; highlighting the thing.
 ;; one thing it definitely controls is how long you have to hold command for something like
 ;; command-tab until command-tab is considered "held" so you can see the options
- :simlayer-threshold 500
- :simlayers {;; left-hand on ACGS
-             :s-mode {:key :s} ;; left control
-             :d-mode {:key :d} ;; left command
-             :f-mode {:key :f} ;; left shift
-              ;; right-hand on SGCA
-             :j-mode {:key :j} ;; right shift
-             :k-mode {:key :k} ;; right command
-             :l-mode {:key :l}} ;; right control
+;;  :simlayer-threshold 500
+;;  :simlayers {;; left-hand on ACGS
+;;              :s-mode {:key :s} ;; left control
+;;              :d-mode {:key :d} ;; left command
+;;              :f-mode {:key :f} ;; left shift
+;;               ;; right-hand on SGCA
+;;              :j-mode {:key :j} ;; right shift
+;;              :k-mode {:key :k} ;; right command
+;;              :l-mode {:key :l}} ;; right control
  :main [{:des   "caps lock to esc when tapped alone, to ctrl when held"
          :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
        ;;   deactivating this because option is sticky now so it's less fun
