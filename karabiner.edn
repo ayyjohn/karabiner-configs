@@ -11,12 +11,13 @@
 ;;                  }
 ;;              }
 ;;   :simlayer-threshold 800
-{:profiles {:Default
-            {:default true
+{:profiles {
+  :Default {
+    :default true
              ;; how long a key should be pressed alone before
              ;; it is considered "long pressed" and therefore cancelled.
              ;; cannot be key-repeated sadly.
-             :alone   180 ;;  documentation: to_if_alone_timeout_milliseconds
+    :alone   180 ;;  documentation: to_if_alone_timeout_milliseconds
 
              ;; this one doesn't seem to be fore anything because
              ;; this config doesn't have any delayed actions
@@ -72,8 +73,14 @@
 ;;              :j-mode {:key :j} ;; right shift
 ;;              :k-mode {:key :k} ;; right command
 ;;              :l-mode {:key :l}} ;; right control
- :main [{:des   "caps lock to esc when tapped alone, to ctrl when held"
-         :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
+ :main [
+    {
+      :des   "caps lock to esc when tapped alone, to ctrl when held"
+      :rules [[:##caps_lock :left_control nil {:alone :escape}]]
+    },
+
+  ]
+}
        ;;   deactivating this because option is sticky now so it's less fun
        ;; doesn't work because hitting enter hits control enter
        ;;  {:des   "enter to enter when tapped alone, control when held"
@@ -330,4 +337,4 @@
        ;;           [:##3 :!W3]
        ;;           [:##4 :!W4]
        ;;           [:##5 :!W5]]}
-       ]}
+      ;;  ]}
