@@ -52,7 +52,12 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_control"
+                                        "sticky_modifier": {
+                                            "right_command": "toggle"
+                                        }
+                                    },
+                                    {
+                                        "key_code": "right_command"
                                     }
                                 ],
                                 "to_if_alone": [
@@ -116,6 +121,24 @@
                             "to": [
                                 {
                                     "consumer_key_code": "display_brightness_decrement"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_decrement"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_decrement"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_decrement"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_decrement"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_decrement"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_decrement"
                                 }
                             ]
                         },
@@ -124,6 +147,27 @@
                                 "key_code": "f2"
                             },
                             "to": [
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
+                                {
+                                    "consumer_key_code": "display_brightness_increment"
+                                },
                                 {
                                     "consumer_key_code": "display_brightness_increment"
                                 }
