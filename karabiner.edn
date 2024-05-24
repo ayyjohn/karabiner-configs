@@ -75,6 +75,10 @@
 ;;              :l-mode {:key :l}} ;; right control
  :main [
     {
+      :des "f6 to caps lock"
+      :rules [[:##f6 :caps_lock]]
+    }
+    {
       :des   "caps lock to esc when tapped alone, to ctrl when held"
       :rules [[:##caps_lock :left_control nil {:alone :escape}]]
     },

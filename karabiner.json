@@ -18,6 +18,27 @@
                 },
                 "rules": [
                     {
+                        "description": "f6 to caps lock",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f6",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "caps lock to esc when tapped alone, to ctrl when held",
                         "manipulators": [
                             {
