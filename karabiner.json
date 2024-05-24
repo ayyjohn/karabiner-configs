@@ -211,11 +211,11 @@
                             "to": [
                                 {
                                     "sticky_modifier": {
-                                        "left_option": "toggle"
+                                        "left_control": "toggle"
                                     }
                                 },
                                 {
-                                    "key_code": "left_option"
+                                    "key_code": "left_control"
                                 }
                             ]
                         },
@@ -226,11 +226,11 @@
                             "to": [
                                 {
                                     "sticky_modifier": {
-                                        "left_control": "toggle"
+                                        "left_option": "toggle"
                                     }
                                 },
                                 {
-                                    "key_code": "left_control"
+                                    "key_code": "left_option"
                                 }
                             ]
                         },
