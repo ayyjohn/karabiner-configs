@@ -50,14 +50,11 @@
                                         ]
                                     }
                                 },
-                                "to": [
+                                "to_if_held_down": [
                                     {
                                         "sticky_modifier": {
-                                            "right_command": "toggle"
+                                            "right_control": "toggle"
                                         }
-                                    },
-                                    {
-                                        "key_code": "right_command"
                                     }
                                 ],
                                 "to_if_alone": [
